@@ -105,7 +105,7 @@ a:hover {
 .img-fluid {
     max-width: 100%;
     height: auto;
-    margin: 110px auto 20px;
+    margin: 80px auto 20px;
     vertical-align: middle;
     text-align: center;
 }
@@ -123,13 +123,14 @@ h3 {
 .categoryHeadlines {
     width: 50%;
     padding: 0 15px;
+    margin-top: 20px;
 }
 
 .categorySubheadlines {
     text-transform: uppercase;
     color: #000;
     font-weight: bolder;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 h2 {
@@ -185,7 +186,7 @@ p {
 
 .sectionDivider {
     height: 0;
-    margin: 3rem 0;
+    margin: 4rem 0;
     overflow: hidden;
     border-top: 2px solid #e9ecef;
 }
@@ -222,8 +223,24 @@ p {
     font-size: 0.8rem;
 }
 
+.bigboxAd {
+    margin: 30px auto 50px;
+}
+
+.billboardAd2 {
+    margin: 30px auto 50px;
+}
 
 
+/* SECTION 4*/
+.sponsorBusinessHeadlines {
+    text-transform: uppercase;
+    color: #FFF;
+    font-weight: bolder;
+    font-style: italic;
+    background-color: #02133F;
+    padding: 10px;
+}
 
 
 
@@ -251,7 +268,7 @@ p {
     }
 
     .billboardAd2 {
-        margin: 130px auto 50px;
+        margin: 50px auto 50px;
     }
 
     .categoryHeadlines {
@@ -282,6 +299,12 @@ p {
     .card-body {
         padding: 1rem 0em;
     }
+
+    .bigboxAd {
+        margin: 0 auto 50px;
+    }
+    
+
 }
 
 
@@ -292,11 +315,11 @@ p {
     }
 
     .billboardAd {
-        margin: 180px auto 100px;
+        margin: 180px auto 50px;
     }
 
     .billboardAd2 {
-        margin: 130px auto 50px;
+        margin: 130px auto 100px;
     }
 
     .categoryHeadlines {
