@@ -3,6 +3,26 @@ body {
     font-family: 'Lato', 'sans-serif';
 }
 
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #20CDF0;
+    text-decoration: none;
+}
+
+.readMore {
+    color: #20CDF0;
+    font-weight: bold;
+}
+
+.readMore:hover {
+    color: #02133F;
+}
+
+/* NAVBAR 2*/
 .navbar .navbar-brand {
     border-radius: 50%;
 } 
@@ -10,6 +30,7 @@ body {
 .navbar {
     background-color: #02133F;
     color: #FFF;
+    padding: 10px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -17,6 +38,7 @@ body {
     text-transform: uppercase;
     font-style: italic;
     font-weight: 700;
+    font-size: 0.9rem;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -88,7 +110,7 @@ body {
     text-align: center;
 }
 
-
+/* SECTION 1*/
 h3 {
     text-transform: uppercase;
     border-left: solid #20CDF0 4px;
@@ -161,6 +183,42 @@ p {
     font-size: 0.8rem;
 }
 
+.sectionDivider {
+    height: 0;
+    margin: 3rem 0;
+    overflow: hidden;
+    border-top: 2px solid #e9ecef;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: none;
+}
+
+.card-img, .card-img-top {
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    margin-top: 15px;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.23rem 0;
+}
+
+
+/* SECTION 2*/
+
 /* /////////////////////////////////////////////////////
 /////////////// MEDIA QUERIES ////////////////////////*/
 
@@ -202,6 +260,13 @@ p {
         font-size: 1rem;
     }
     
+    .navbar {
+        padding: 10px 50px;
+    }
+
+    .card-body {
+        padding: 1rem 0em;
+    }
 }
 
 
@@ -225,12 +290,18 @@ p {
     }
 
     .sidebarText {
-        font-size: 0.8rem;
+        font-size: 0.8rem 0;
+    }
+
+    .card-body {
+        padding: 1.23rem 0;
     }
     
 }
 
+@media (min-width: 1024px) { 
 
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
