@@ -95,6 +95,7 @@ h3 {
     font-style: italic;
     font-weight: bolder;
     line-height: 1.1;
+    font-size: 1.5rem;
 }
 
 .categoryHeadlines {
@@ -111,7 +112,7 @@ h3 {
 
 h2 {
     font-weight: bolder;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .businessbeatImage {
@@ -144,10 +145,16 @@ h2 {
 
 .number {
     font-size: 3rem;
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .categorySubheadlinesSmall {
-    margin-top: 15px;
+    margin-top: 0;
     margin-bottom: 5px;
     text-transform: uppercase;
     color: #747474;
@@ -177,6 +184,24 @@ h2 {
     .categoryHeadlines {
         width: 30%;
     }
+
+    h2 {
+        font-weight: bolder;
+        font-size: 3rem;
+    }
+
+    p {
+        margin-bottom: 1rem;
+    }
+
+    h3 {
+        font-size: 1.75rem;
+    }
+
+    .sidebarText {
+        font-size: 1rem;
+    }
+    
 }
 
 
@@ -192,6 +217,15 @@ h2 {
 
     .categoryHeadlines {
         width: 20%;
+    }
+
+
+    .categorySubheadlinesSmall {
+        margin-top: 15px;
+    }
+
+    .sidebarText {
+        font-size: 0.8rem;
     }
     
 }
