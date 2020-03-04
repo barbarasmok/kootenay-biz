@@ -53,8 +53,9 @@ a:hover {
 }
 
 .btn-outline-success {
-    color: #20CDF0;
+    color: #000;
     border-color: #20CDF0;
+    background-color: #20CDF0;
 }
 
 .btn-outline-success:hover {
@@ -243,9 +244,44 @@ p {
 }
 
 
+/* SUBSCRIBE*/
+.newsletter {
+    padding: 50px 0;
+    background: #F8F8F8;
+}
+    
+.newsletter .content {
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2; 
+}
 
+.btn-outline-success2 {
+    color: #FFF;
+    border-color: #02133F;
+    background-color: #02133F;
+}
 
+.btn-outline-success2:hover {
+    color: #000;
+    background-color: #20CDF0;
+    border-color: #20CDF0;
+}
 
+.form-control {
+    margin-right: 8px;
+}
+
+.eNewsText {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.eNewsHeadline {
+    margin-bottom: 10px;
+}
 
 /* /////////////////////////////////////////////////////
 /////////////// MEDIA QUERIES ////////////////////////*/
