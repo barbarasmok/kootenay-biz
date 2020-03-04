@@ -218,6 +218,17 @@ p {
 
 
 /* SECTION 2*/
+.promotedText {
+    font-size: 0.8rem;
+}
+
+
+
+
+
+
+
+
 
 /* /////////////////////////////////////////////////////
 /////////////// MEDIA QUERIES ////////////////////////*/
@@ -236,6 +247,10 @@ p {
     }
 
     .billboardAd {
+        margin: 130px auto 50px;
+    }
+
+    .billboardAd2 {
         margin: 130px auto 50px;
     }
 
@@ -280,6 +295,10 @@ p {
         margin: 180px auto 100px;
     }
 
+    .billboardAd2 {
+        margin: 130px auto 50px;
+    }
+
     .categoryHeadlines {
         width: 20%;
     }
@@ -290,7 +309,7 @@ p {
     }
 
     .sidebarText {
-        font-size: 0.8rem 0;
+        font-size: 0.8rem;
     }
 
     .card-body {
