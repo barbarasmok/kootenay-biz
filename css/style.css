@@ -38,7 +38,7 @@ a:hover {
     text-transform: uppercase;
     font-style: italic;
     font-weight: 700;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -52,13 +52,13 @@ a:hover {
     color: #20CDF0;
 }
 
-.btn-outline-success {
+.btn-primary {
     color: #000;
     border-color: #20CDF0;
     background-color: #20CDF0;
 }
 
-.btn-outline-success:hover {
+.btn-primary:hover {
     color: #FFF;
     background-color: #20CDF0;
     border-color: #20CDF0;
@@ -106,7 +106,7 @@ a:hover {
 .img-fluid {
     max-width: 100%;
     height: auto;
-    margin: 80px auto 20px;
+    margin: 130px auto 20px;
     vertical-align: middle;
     text-align: center;
 }
@@ -262,6 +262,7 @@ p {
     color: #FFF;
     border-color: #02133F;
     background-color: #02133F;
+    margin: 10px;
 }
 
 .btn-outline-success2:hover {
@@ -271,16 +272,18 @@ p {
 }
 
 .form-control {
-    margin-right: 8px;
+    margin: 10px;
 }
 
 .eNewsText {
-    margin-top: 0;
-    margin-bottom: 30px;
+    margin: 0 auto 30px;
+    width: 80%;
+    text-align: center;
 }
 
 .eNewsHeadline {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.75rem;
 }
 
 /* /////////////////////////////////////////////////////
@@ -288,7 +291,16 @@ p {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
+    .form-inline .form-control {
+        display: inline-block;
+        width: 100%;
+        vertical-align: middle;
+        text-align: center;
+    }
 
+    .mr-sm-2, .mx-sm-2 {
+        margin-right: 0rem;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -340,6 +352,27 @@ p {
         margin: 0 auto 50px;
     }
     
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+        margin: 80px auto 20px;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .eNewsText {
+        width: 60%;
+        margin: 0 auto 40px;
+    }
+
+    .form-control {
+        margin: 20px;
+    }
+
+    .btn-outline-success2 {
+        margin: 20px;
+    }
+    
 
 }
 
@@ -348,6 +381,13 @@ p {
 @media (min-width: 992px) { 
     .dropdown-menu {
         width: 800px;
+    }
+
+    .form-inline .form-control {
+        display: inline-block;
+        width: auto;
+        vertical-align: middle;
+        text-align: left;
     }
 
     .billboardAd {
@@ -375,6 +415,22 @@ p {
         padding: 1.23rem 0;
     }
     
+    .form-control {
+        margin-right: 8px;
+    }
+
+    .eNewsHeadline {
+        font-size: 2.5rem;   
+    }
+
+    .form-control {
+        margin: 10px;
+    }
+
+    .btn-outline-success2 {
+        margin: 10px;
+    }
+
 }
 
 @media (min-width: 1024px) { 
