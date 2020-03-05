@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="280px" height="280px" viewBox="0 0 280 280" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Advertise</title>
+    <desc>Created with Sketch.</desc>
+    <g id="KB-Contact-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="KB---Contact-page---Desktop" transform="translate(-584.000000, -1066.000000)">
+            <g id="Advertise" transform="translate(584.000000, 1066.000000)">
+                <rect id="Rectangle" fill="#F6F3F3" x="0" y="0" width="280" height="280"></rect>
+                <g id="arrow-DARK" transform="translate(131.000000, 221.000000)" fill="#02133F">
+                    <g id="np_link_1713451_000000">
+                        <polygon id="Path" fill-rule="nonzero" points="22.31904 10.44936 22.31904 23.82552 -9.72022463e-14 23.82552 -9.72022463e-14 1.80552 13.47744 1.80552 13.47744 4.70424 2.94096 4.70424 2.94096 20.92584 19.38096 20.92584 19.38096 10.44936"></polygon>
+                        <path d="M15.1584,0.1742544 L15.1584,3.0740544 L18.94872,3.0740544 L11.23968,10.7821344 C10.95936,11.0624544 10.802808,11.4430704 10.802808,11.8386864 C10.802808,12.2352384 10.960308,12.6158784 11.23968,12.8961744 C11.823744,13.4793024 12.76968,13.4793024 13.353744,12.8961744 L21.061824,5.1871344 L21.061824,8.8190544 L23.999904,8.8190544 L23.999904,0.1742544 L15.1584,0.1742544 Z" id="Path" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+                <text id="ADVERTISE" font-family="Lato-Black, Lato" font-size="40" font-weight="700" line-spacing="40" fill="#02133F">
+                    <tspan x="30.24" y="210.920166">ADVERTISE</tspan>
+                </text>
+                <text id="Pellentesque-bibendu" font-family="Lato-Bold, Lato" font-size="21" font-weight="bold" line-spacing="28" fill="#02133F">
+                    <tspan x="26.50325" y="55">Pellentesque bibendum </tspan>
+                    <tspan x="31.3385" y="83">diam nec enim lobortis </tspan>
+                    <tspan x="24.91775" y="111">lobortis malesuada ante </tspan>
+                    <tspan x="51.01025" y="139">ultrices accumsan. </tspan>
+                </text>
+                <line x1="25" y1="160" x2="253.651776" y2="159.5" id="Line" stroke="#02133F" stroke-width="2" stroke-linecap="square"></line>
+                <line x1="25" y1="234" x2="122" y2="233.5" id="Line-Copy" stroke="#02133F" stroke-width="2" stroke-linecap="square"></line>
+                <line x1="162.345959" y1="233.5" x2="254" y2="234" id="Line-Copy-2" stroke="#02133F" stroke-width="2" stroke-linecap="square"></line>
+            </g>
+        </g>
+    </g>
+</svg>

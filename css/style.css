@@ -1,6 +1,7 @@
 
 body {
     font-family: 'Lato', 'sans-serif';
+    min-height: 100vh;
 }
 
 a {
@@ -301,6 +302,12 @@ footer {
     padding: 40px 30px;
     color: white;
     font-size: 0.8rem;
+    max-height: 100vh;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    margin-top: 50px;
 }
 
 footer ul {
@@ -349,6 +356,93 @@ footer ul li {
 
 
 
+/* CONTACT SECTION*/
+
+.contact {
+    padding: 60px 0;
+    background: #F8F8F8;
+    margin-bottom: 50px;
+}
+
+.contactHeading {
+    margin-top: 150px;
+}
+    
+.contact .content {
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2; 
+}
+
+textarea.form-control {
+    height: 150px;
+}
+
+.contactText {
+    margin: 0 auto 30px;
+    width: 80%;
+    text-align: center;
+}
+
+.contactHeadline {
+    margin-bottom: 20px;
+    font-size: 1.75rem;
+}
+
+.contactInfo {
+    margin: 0;
+}
+
+.address {
+    margin-top: 30px;
+}
+
+.boxes {
+    margin: 50px auto;
+}
+
+.imgBoxes {
+    margin-top: 15px;
+}
+
+form {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.form-check {
+    position: relative;
+    display: block;
+}
+
+.form-inline2 .form-control {
+    display: inline-block;
+    width: 90%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.btn-outline-success3 {
+    color: #FFF;
+    border-color: #02133F;
+    background-color: #02133F;
+    margin: 10px;
+    width: 90%;
+}
+
+.btn-outline-success2:hover {
+    color: #000;
+    background-color: #20CDF0;
+    border-color: #20CDF0;
+}
+
 /* /////////////////////////////////////////////////////
 /////////////// MEDIA QUERIES ////////////////////////*/
 
@@ -367,11 +461,32 @@ footer ul li {
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+@media (min-width: 768px) {  
     .col-md-6 {
         -ms-flex: 0 0 50%;
         flex: 0 0 30%;
         max-width: 40%;
+    }
+
+    .contactHeading {
+        margin-top: 100px;
+    }
+
+    .imgBoxes {
+        margin-top: 0;
+        width: 100%;
+    }
+    
+    .address {
+        margin-top: 0;
+    }
+
+    .contactForm {
+        width: 50%;
+    }
+
+    .boxes {
+        margin: 50px auto 100px;
     }
 
     footer {
@@ -400,6 +515,11 @@ footer ul li {
         margin-top: 50px;
     }
     
+    .contact {
+        padding: 60px 0;
+        background: #F8F8F8;
+        margin-bottom: 150px;
+    }
     
     .billboardAd {
         margin: 130px auto 50px;
@@ -461,8 +581,7 @@ footer ul li {
 
     .btn-outline-success2 {
         margin: 20px;
-    }
-    
+    } 
 
 }
 
@@ -478,6 +597,14 @@ footer ul li {
         width: auto;
         vertical-align: middle;
         text-align: left;
+    }
+
+    .form-inline2 .form-control {
+        width: 100%;
+    }
+
+    .btn-outline-success3 {
+        width: 100%;
     }
 
     .billboardAd {
@@ -509,7 +636,8 @@ footer ul li {
         margin-right: 8px;
     }
 
-    .eNewsHeadline {
+    .eNewsHeadline,
+    .contactHeadline {
         font-size: 2.5rem;   
     }
 
@@ -519,6 +647,10 @@ footer ul li {
 
     .btn-outline-success2 {
         margin: 10px;
+    }
+
+    .boxes {
+        margin: 150px auto;
     }
 
 }
