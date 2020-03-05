@@ -232,6 +232,10 @@ p {
     margin: 30px auto 50px;
 }
 
+.smallerHeadlines {
+    font-size: 2.3rem;
+}
+
 
 /* SECTION 4*/
 .sponsorBusinessHeadlines {
@@ -240,7 +244,7 @@ p {
     font-weight: bolder;
     font-style: italic;
     background-color: #02133F;
-    padding: 10px;
+    padding: 10px 10px 10px 30px;
 }
 
 
@@ -348,16 +352,16 @@ p {
         padding: 1rem 0em;
     }
 
-    .bigboxAd {
-        margin: 0 auto 50px;
-    }
-    
     .img-fluid {
         max-width: 100%;
         height: auto;
         margin: 80px auto 20px;
         vertical-align: middle;
         text-align: center;
+    }
+
+    .bigboxAd {
+        margin: 0 auto 50px;
     }
 
     .eNewsText {
