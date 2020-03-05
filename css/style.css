@@ -27,6 +27,10 @@ a:hover {
     border-radius: 50%;
 } 
 
+.navIcon:hover path {
+    fill: #20CDF0;
+}
+
 .navbar {
     background-color: #02133F;
     color: #FFF;
@@ -252,6 +256,7 @@ p {
 .newsletter {
     padding: 50px 0;
     background: #F8F8F8;
+    margin-bottom: 150px;
 }
     
 .newsletter .content {
@@ -290,6 +295,60 @@ p {
     font-size: 1.75rem;
 }
 
+/* FOOTER*/
+footer {
+    background-color: #02133F;
+    padding: 40px 30px;
+    color: white;
+    font-size: 0.8rem;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+.footerNav {
+    display: none;
+}
+
+footer ul li {
+    display: none;
+    list-style: none;
+    padding-top: 2px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 0.9rem;
+    text-align: center;
+    padding-left: 0;
+}
+
+.footerLink {
+    color: white;  
+}
+
+.socialIcons {
+    margin-top: 10px;
+}
+
+.socialIcons svg {
+    margin: 5px;
+}
+
+.socialIconsFill:hover path {
+    fill: #20CDF0;
+}
+
+.footerLogo:hover path {
+    fill: #20CDF0;
+}
+
+.copyrigthText {
+    padding-top: 20px;
+}
+
+
+
 /* /////////////////////////////////////////////////////
 /////////////// MEDIA QUERIES ////////////////////////*/
 
@@ -315,6 +374,33 @@ p {
         max-width: 40%;
     }
 
+    footer {
+        background-color: #02133F;
+        padding: 60px 10px 40px;
+        color: white;
+        font-size: 0.8rem;
+    }
+
+    .footerNav {
+        display: block;
+    }
+
+    footer ul li {
+        display: block;
+        list-style: none;
+        padding-top: 2px;
+        text-transform: uppercase;
+        font-style: italic;
+        font-weight: 900;
+        font-size: 0.9rem;
+        text-align: right;
+    }
+
+    .socialIcons {
+        margin-top: 50px;
+    }
+    
+    
     .billboardAd {
         margin: 130px auto 50px;
     }
