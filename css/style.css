@@ -197,6 +197,13 @@ p {
     border-top: 2px solid #e9ecef;
 }
 
+.inBetweenDivider {
+    height: 0;
+    margin: 1rem 0 2rem;
+    overflow: hidden;
+    border-top: 2px solid #e9ecef;
+}
+
 .card {
     position: relative;
     display: -ms-flexbox;
@@ -249,7 +256,7 @@ p {
     font-weight: bolder;
     font-style: italic;
     background-color: #02133F;
-    padding: 10px 10px 10px 30px;
+    padding: 10px 30px;
 }
 
 
@@ -517,6 +524,13 @@ h5 {
     margin: 0 auto 10px;
 }
 
+.leadNavLink {
+    padding-left: 20px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 0.85rem;
+}
 
 
 /* /////////////////////////////////////////////////////
@@ -541,7 +555,12 @@ h5 {
     .col-md-6 {
         -ms-flex: 0 0 50%;
         flex: 0 0 30%;
-        max-width: 40%;
+        max-width: 30%;
+    }
+
+    .promotedText {
+        font-size: 0.8rem;
+        margin-bottom: 1rem 0 3rem;
     }
 
     .form-control-file {
@@ -636,6 +655,10 @@ h5 {
         margin-bottom: 1rem;
     }
 
+    .leadNavLink {
+        margin-bottom: 0;
+    }
+
     h3 {
         font-size: 1.75rem;
     }
@@ -661,7 +684,7 @@ h5 {
     }
 
     .bigboxAd {
-        margin: 0 auto 50px;
+        margin: 0 auto 40px;
     }
 
     .eNewsText {
@@ -752,7 +775,11 @@ h5 {
 }
 
 @media (min-width: 1024px) { 
-
+    .col-md-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 32%;
+        max-width: 60%;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
