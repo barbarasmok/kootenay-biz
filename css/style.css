@@ -532,6 +532,16 @@ h5 {
     font-size: 0.85rem;
 }
 
+.btnReadMore {
+    display: block;
+    width: 100%;
+}
+
+.btnReadMoreText:hover {
+    color: #FFF;
+}
+
+
 
 /* /////////////////////////////////////////////////////
 /////////////// MEDIA QUERIES ////////////////////////*/
@@ -705,10 +715,12 @@ h5 {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+    
     .dropdown-menu {
         width: 800px;
     }
 
+  
     .form-inline .form-control {
         display: inline-block;
         width: auto;
@@ -787,9 +799,12 @@ h5 {
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {    
     .dropdown-menu {
         width: 750px;
     }
     
+    .smallDropdown {
+        width: 300px;
+    }
 }
