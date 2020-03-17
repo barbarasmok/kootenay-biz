@@ -772,6 +772,10 @@ h5 {
         margin: 150px auto;
     }
 
+    .sidebarAds {
+        margin-top: 80px;
+    }
+
 }
 
 @media (min-width: 1024px) { 
