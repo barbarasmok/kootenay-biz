@@ -170,11 +170,12 @@ h2 {
     height: auto;
     text-align: center;
 }
+
+
+.order-lg-2.mostRead {
+    margin-top: 80px;
 }
 
-.mostRead {
-    margin-top: 30px;
-}
 
 .sidebarSubheadlines {
     text-transform: uppercase;
@@ -231,6 +232,14 @@ p {
     width: 35%;
 }
 
+.authorsDidiver {
+    height: 0;
+    margin: 1rem 0 1rem;
+    overflow: hidden;
+    border-top: 2px solid #e9ecef;
+    width: 100%;
+}
+
 .sectionDividerLists {
     height: 0;
     margin: 2rem 0 3rem;
@@ -279,6 +288,10 @@ p {
 
 .bigboxAd {
     margin: 30px auto 50px;
+}
+
+.sidebarAdsMargin {
+    margin-top: 0px;
 }
 
 .billboardAd2 {
@@ -387,7 +400,7 @@ footer ul li {
 }
 
 .socialIconsHeadline {
-    margin-top: 30px;
+    margin: 30px auto;
 }
 
 .socialIcons svg {
@@ -599,7 +612,52 @@ h5 {
     color: #FFF;
 }
 
+/*AUTHORS DETAILS*/
+.name,
+.city,
+.date,
+.cutline {
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
 
+.city, 
+.date,
+.cutline {
+    font-size: 0.8rem;
+    color: #495057;
+}
+
+.infoText {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.websiteLink {
+    color: #20CDF0;
+    margin-top: 0;
+}
+
+.websiteLink:hover {
+    color: #000;
+}
+
+/* STOTY DETAILS*/
+h4 {
+    margin-bottom: .5rem;
+    font-weight: 900;
+    line-height: 1.2;
+    margin-top: 3rem;
+}
+
+.storySudheadline {
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.storyText {
+    width: 95%;
+}
 
 /* /////////////////////////////////////////////////////
 /////////////// MEDIA QUERIES ////////////////////////*/
@@ -776,6 +834,10 @@ h5 {
         width: 15%;
     }
 
+    .infoText {
+        width: 80%;
+    }
+
 }
 
 
@@ -852,6 +914,10 @@ h5 {
 
     .sidebarAds {
         margin-top: 80px;
+    }
+
+    .sidebarAdsMarginStory {
+        margin-top: 10px;
     }
 
 }
