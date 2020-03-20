@@ -313,6 +313,16 @@ p {
     padding: 10px 30px;
 }
 
+.sponsorBusinessMainHeadlines {
+    text-transform: uppercase;
+    color: #FFF;
+    font-weight: bolder;
+    font-style: italic;
+    background-color: #02133F;
+    padding: 10px 30px;
+    margin-top: 30px;
+}
+
 
 /* SUBSCRIBE*/
 .newsletter {
