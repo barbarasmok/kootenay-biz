@@ -126,10 +126,22 @@ h3 {
     font-size: 1.5rem;
 }
 
+h2 {
+    margin-top:50px;
+}
+
 .categoryHeadlines {
     width: 50%;
     padding: 0 15px;
     margin-top: 20px;
+}
+
+.categoryHeadlinesSmall {
+    width: 50%;
+    padding: 0 15px;
+    margin-top: 80px;
+    font-size: 1.3rem;
+    margin-bottom: 0;
 }
 
 .categorySubheadlines {
@@ -148,6 +160,16 @@ h2 {
     vertical-align: middle;
     border-style: none;
     margin: 30px auto;
+}
+
+.communityFeaturedImage {
+    vertical-align: middle;
+    border-style: none;
+    margin: 30px auto;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
 }
 
 .mostRead {
@@ -193,6 +215,25 @@ p {
 .sectionDivider {
     height: 0;
     margin: 4rem 0;
+    overflow: hidden;
+    border-top: 2px solid #e9ecef;
+}
+
+.sectionDividerMargin {
+    margin: 10px auto 40px;
+}
+
+.socialDivider {
+    height: 0;
+    margin: 2rem 0 2rem;
+    overflow: hidden;
+    border-top: 2px solid #e9ecef;
+    width: 35%;
+}
+
+.sectionDividerLists {
+    height: 0;
+    margin: 2rem 0 3rem;
     overflow: hidden;
     border-top: 2px solid #e9ecef;
 }
@@ -345,9 +386,26 @@ footer ul li {
     margin-top: 10px;
 }
 
+.socialIconsHeadline {
+    margin-top: 30px;
+}
+
 .socialIcons svg {
     margin: 5px;
 }
+
+.socialIconsHeadline svg {
+    margin: 5px;
+}
+
+.socialIconsFillHeadline path {
+    fill: #20CDF0;
+}
+
+.socialIconsFillHeadline:hover path {
+    fill: #e9ecef;
+}
+
 
 .socialIconsFill:hover path {
     fill: #20CDF0;
@@ -558,6 +616,10 @@ h5 {
     .mr-sm-2, .mx-sm-2 {
         margin-right: 0rem;
     }
+
+    .socialDivider {
+        width: 35%;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -709,6 +771,10 @@ h5 {
     .btn-outline-success2 {
         margin: 20px;
     } 
+
+    .socialDivider {
+        width: 15%;
+    }
 
 }
 
