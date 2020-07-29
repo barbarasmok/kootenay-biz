@@ -1,3 +1,17 @@
+@font-face {
+    font-family: "Blacker Text";
+    src: url("../fonts/blacker/Blacker-Text-Heavy-trial.ttf");
+    src: url("../fonts/blacker/Blacker-Text-Heavy-Italic-trial.ttf");
+    src: url("../fonts/blacker/Blacker-Text-Regular-trial.ttf");
+    src: url("../fonts/blacker/Blacker-Text-Regular-Italic-trial.ttf");
+    src: url("../fonts/blacker/Blacker-Text-Bold-trial.ttf");
+    src: url("../fonts/blacker/Blacker-Text-Book-Italic-trial.ttf");
+}
+
+@font-face {
+    font-family: "Klavika";
+    src: url("../fonts/klavika/Klavika-BoldItalic.otf");
+}
 
 body {
     font-family: 'Lato', 'sans-serif';
@@ -33,7 +47,7 @@ a:hover {
 }
 
 .navbar {
-    background-color: #02133F;
+    background-color: #0e0e0e;
     color: #FFF;
     padding: 10px;
 }
@@ -144,11 +158,165 @@ h2 {
     margin-bottom: 0;
 }
 
+
+.jumboSubheadlines, 
+.bobSubheadlines {
+    text-transform: uppercase;
+    font-family: "Klavika";
+    line-height: 1.1;
+    width: 100%;
+    padding: 0 15px;
+    margin-top: 20px;
+    border: none;
+    text-align: center;
+    margin: auto;
+    font-size: 1.1rem; 
+}
+
+.bobSubheadlines {
+    font-size: 2rem; 
+    margin: 100px auto 0;
+}
+
+.bobImage {
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.jumbotron {
+    padding: 50px 50px;
+    background-color: #FCFCFC;
+    border-radius: .3rem;
+    margin: 50px auto;
+}
+
+.disclaimer {
+    margin: 10px auto 30px;
+    width: 80%;
+}
+
+
+.btnBOBNominate {
+    color: #FFF;
+    border-color: #EC0000;
+    background-color: #EC0000;
+    font-family: "Klavika";
+    margin: 5px;
+    display: block;
+}
+
+.btnBOBNominate:hover {
+    color: #FFF;
+    background-color: #10A5E9;
+    border-color: #10A5E9;
+}
+
+.btnBOB2019Winners,
+.btnCategory {
+    color: #FFF;
+    border-color: #0e0e0e;
+    background-color: #0e0e0e;
+    font-family: "Klavika";
+    margin: 5px;
+    display: block;
+}
+
+.btnCategory {
+    text-transform: none;
+    width: 90%;
+    margin: 5px auto;
+    padding: 10px;
+    font-family: 'Lato';
+    font-weight: 900;
+}
+
+.btnCategoryRed {
+    color: #FFF;
+    border-color: #EC0000;
+    background-color: #EC0000;
+    text-transform: none;
+    width: 90%;
+    margin: 5px auto;
+    padding: 10px;
+    font-family: 'Lato';
+    font-weight: 900;
+    display: block;
+}
+
+.bobCategoryCollapse {
+    margin: 10px auto;
+}
+
+.btnBOB2019Winners:hover,
+.btnCategory:hover {
+    color: #FFF;
+    background-color: #10A5E9;
+    border-color: #10A5E9;
+}
+
+.jumboBtns {
+    margin: auto;
+    padding: 10px;
+    display: block;
+}
+
+.jumboBtnsSmall{
+    color: #FFF;
+    border-color: #10A5E9;
+    background-color: #10A5E9;
+    font-family: 'Lato';
+    margin: 5px;
+    display: block;
+    font-size: 0.7rem;
+    text-transform: none;
+}
+
+.jumboBtnsSmall2 {
+    color: #FFF;
+    border-color: #EC0000;
+    background-color: #EC0000;
+    font-family: 'Lato';
+    margin: 5px;
+    display: block;
+    font-size: 0.7rem;
+    text-transform: none;
+}
+
+.jumboBtnsSmall:hover,
+.jumboBtnsSmall2:hover {
+    background-color: #0e0e0e;
+}
+
 .categorySubheadlines {
     text-transform: uppercase;
     color: #000;
     font-weight: bolder;
     margin-top: 30px;
+}
+
+
+.md-form {
+    width: 100%;
+    margin: auto;
+}
+
+.awardImage {
+    width: 60%;
+    margin: 100px auto 40px;
+}
+
+.awardText {
+    width: 90%;
+    margin: 0 auto 100px;
+    text-align: center;
+    padding-bottom: 100px;
+    color: #495057;
+}
+
+#sectionGrey {
+    background-color: #FCFCFC;
+    margin-top: 100px;
 }
 
 h2 {
@@ -369,7 +537,7 @@ p {
 
 /* FOOTER*/
 footer {
-    background-color: #02133F;
+    background-color: #0e0e0e;
     padding: 40px 30px;
     color: white;
     font-size: 0.8rem;
@@ -442,6 +610,9 @@ footer ul li {
     padding-top: 20px;
 }
 
+.footerLogo {
+    width: 80%;
+}
 
 
 /* CONTACT SECTION*/
@@ -692,6 +863,52 @@ h4 {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {  
+    .awardImage {
+        width: 40%;
+    }
+    
+    .awardText {
+        width: 80%;
+    }
+
+    .jumbotron {
+        padding: 100px 50px;
+        margin: 50px auto;
+    }
+
+    .md-form {
+        width: 100%;
+    }
+    .btnCategory,
+    .btnCategoryRed {
+        width: 50%;
+    }
+
+    .bobImage {
+        width: 80%;
+        margin: 40px auto;
+        text-align: center;
+    }
+
+    .jumboSubheadlines {
+        width: 50%;
+        font-size: 1.5rem;
+    }
+
+    .btnBOBNominate {
+        display: inline-block;
+    }
+    
+    .btnBOB2019Winners {
+        display: inline-block;
+    }
+    
+
+    .jumboBtnsSmall,
+    .jumboBtnsSmall2 {
+        display: inline-block;
+    }
+
     .col-md-6 {
         -ms-flex: 0 0 50%;
         flex: 0 0 30%;
@@ -713,8 +930,9 @@ h4 {
     }
     
     .form-control-2 {
-        width: 70%;
+        width: 100%;
         font-size: 1rem;
+        margin: auto;
     }
     
     h5 {
@@ -743,7 +961,6 @@ h4 {
     }
 
     footer {
-        background-color: #02133F;
         padding: 60px 10px 40px;
         color: white;
         font-size: 0.8rem;
@@ -836,6 +1053,15 @@ h4 {
         margin: 20px;
     }
 
+    .md-form {
+        width: 50%;
+        margin: auto;
+    }
+
+    .form-control-2 {
+        margin: auto;
+    }
+
     .btn-outline-success2 {
         margin: 20px;
     } 
@@ -858,6 +1084,13 @@ h4 {
         width: 800px;
     }
 
+    .awardImage {
+        width: 30%;
+    }
+    
+    .awardText {
+        width: 70%;
+    }
   
     .form-inline .form-control {
         display: inline-block;
@@ -938,6 +1171,12 @@ h4 {
         flex: 0 0 32%;
         max-width: 60%;
     }
+
+    .bobImage {
+        width: 50%;
+        margin: 20px auto;
+        text-align: center;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -948,5 +1187,13 @@ h4 {
     
     .smallDropdown {
         width: 300px;
+    }
+
+    .awardImage {
+        width: 25%;
+    }
+    
+    .awardText {
+        width: 70%;
     }
 }
