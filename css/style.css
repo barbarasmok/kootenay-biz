@@ -79,8 +79,8 @@ a:hover {
 
 .btn-primary:hover {
     color: #FFF;
-    background-color: #20CDF0;
-    border-color: #20CDF0;
+    background-color: #10A5E9;
+    border-color: #10A5E9;
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -122,12 +122,18 @@ a:hover {
 }
 
 
-.img-fluid {
+.img-fluid,
+.img-fluid2,
+.img-fluid4 {
     max-width: 100%;
     height: auto;
     margin: 130px auto 20px;
     vertical-align: middle;
     text-align: center;
+}
+
+.img-fluid2 {
+    margin: 0 auto;
 }
 
 /* SECTION 1*/
@@ -158,6 +164,9 @@ h2 {
     margin-bottom: 0;
 }
 
+#sectionCategories {
+    margin-top: 100px;
+}
 
 .jumboSubheadlines, 
 .bobSubheadlines {
@@ -173,9 +182,14 @@ h2 {
     font-size: 1.1rem; 
 }
 
+.nominateList {
+    width: 50%;
+    margin: auto;
+}
+
 .bobSubheadlines {
-    font-size: 2rem; 
-    margin: 100px auto 0;
+    font-size: 2.5rem; 
+    margin: 50px auto 0;
 }
 
 .bobImage {
@@ -199,7 +213,7 @@ h2 {
 
 .btnBOBNominate {
     color: #FFF;
-    border-color: #EC0000;
+    border: none;
     background-color: #EC0000;
     font-family: "Klavika";
     margin: 5px;
@@ -212,10 +226,35 @@ h2 {
     border-color: #10A5E9;
 }
 
+.btnBOBVote {
+    color: #0e0e0e;
+    border: none;
+    background-color: #F7DD05;
+    font-family: "Klavika";
+    margin: 5px;
+    display: block;
+}
+
+.btnBOBVote:hover {
+    color: #FFF;
+    background-color: #10A5E9;
+    border-color: #10A5E9;
+}
+
+.btn-primary {
+    color: #0e0e0e;
+    border: none;
+    background-color: #e9ecef;
+    font-family: "Lato";
+    margin: 5px;
+    display: block;
+}
+
+
 .btnBOB2019Winners,
 .btnCategory {
     color: #FFF;
-    border-color: #0e0e0e;
+    border: none;
     background-color: #0e0e0e;
     font-family: "Klavika";
     margin: 5px;
@@ -229,12 +268,14 @@ h2 {
     padding: 10px;
     font-family: 'Lato';
     font-weight: 900;
+    font-size: 1.3rem;
+    border: none;
 }
 
-.btnCategoryRed {
+.btnCategoryBlue {
     color: #FFF;
-    border-color: #EC0000;
-    background-color: #EC0000;
+    border: none;
+    background-color: #10A5E9;
     text-transform: none;
     width: 90%;
     margin: 5px auto;
@@ -242,6 +283,7 @@ h2 {
     font-family: 'Lato';
     font-weight: 900;
     display: block;
+    font-size: 1.3rem;
 }
 
 .bobCategoryCollapse {
@@ -255,15 +297,22 @@ h2 {
     border-color: #10A5E9;
 }
 
+.btnCategoryBlue:hover {
+    color: #FFF;
+    background-color: #0e0e0e;
+    border-color: #0e0e0e;
+}
+
 .jumboBtns {
     margin: auto;
     padding: 10px;
     display: block;
+    border: none;
 }
 
 .jumboBtnsSmall{
     color: #FFF;
-    border-color: #10A5E9;
+    border: none;
     background-color: #10A5E9;
     font-family: 'Lato';
     margin: 5px;
@@ -274,7 +323,7 @@ h2 {
 
 .jumboBtnsSmall2 {
     color: #FFF;
-    border-color: #EC0000;
+    border: none;
     background-color: #EC0000;
     font-family: 'Lato';
     margin: 5px;
@@ -284,8 +333,21 @@ h2 {
 }
 
 .jumboBtnsSmall:hover,
-.jumboBtnsSmall2:hover {
+.jumboBtnsSmall2:hover,
+.jumboBtnsSmall2Yellow:hover {
     background-color: #0e0e0e;
+    color: #fff;
+}
+
+.jumboBtnsSmall2Yellow {
+    color: #0e0e0e;
+    border: none;
+    background-color: #F7DD05;
+    font-family: 'Lato';
+    margin: 5px;
+    display: block;
+    font-size: 0.7rem;
+    text-transform: none;
 }
 
 .categorySubheadlines {
@@ -308,7 +370,7 @@ h2 {
 
 .awardText {
     width: 90%;
-    margin: 0 auto 100px;
+    margin: 0 auto;
     text-align: center;
     padding-bottom: 100px;
     color: #495057;
@@ -462,8 +524,13 @@ p {
     margin-top: 0px;
 }
 
+.billboardAd4 {
+    margin: 30px auto 150px;
+}
+
 .billboardAd2 {
     margin: 30px auto 50px;
+    width: 100%;
 }
 
 .smallerHeadlines {
@@ -866,6 +933,17 @@ h4 {
     .awardImage {
         width: 40%;
     }
+
+    .billboardAd2,
+    .img-fluid2 {
+        margin: 30px auto 50px;
+        width: 100%;
+    }
+    
+    .billboardAd3 {
+        margin: 30px auto 50px;
+        width: 60%;
+    }
     
     .awardText {
         width: 80%;
@@ -880,7 +958,7 @@ h4 {
         width: 100%;
     }
     .btnCategory,
-    .btnCategoryRed {
+    .btnCategoryBlue {
         width: 50%;
     }
 
@@ -895,7 +973,9 @@ h4 {
         font-size: 1.5rem;
     }
 
-    .btnBOBNominate {
+    .btnBOBNominate,
+    .btnBOBVote,
+    .btn-primary {
         display: inline-block;
     }
     
@@ -905,7 +985,8 @@ h4 {
     
 
     .jumboBtnsSmall,
-    .jumboBtnsSmall2 {
+    .jumboBtnsSmall2,
+    .jumboBtnsSmall2Yellow {
         display: inline-block;
     }
 
