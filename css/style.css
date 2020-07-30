@@ -183,8 +183,17 @@ h2 {
 }
 
 .nominateList {
-    width: 50%;
+    width: 100%;
     margin: auto;
+}
+
+.BOBbusinessName{
+    margin-top: 0;
+} 
+
+.logoCategory {
+    width: 85%;
+    margin-bottom: 10px;
 }
 
 .bobSubheadlines {
@@ -304,8 +313,7 @@ h2 {
 }
 
 .jumboBtns {
-    margin: auto;
-    padding: 10px;
+    margin: 15px auto;
     display: block;
     border: none;
 }
@@ -525,7 +533,7 @@ p {
 }
 
 .billboardAd4 {
-    margin: 30px auto 150px;
+    margin: 30px auto 50px;
 }
 
 .billboardAd2 {
@@ -640,7 +648,8 @@ footer ul li {
     color: white;  
 }
 
-.socialIcons {
+.socialIcons,
+.socialIcons-blue {
     margin-top: 10px;
 }
 
@@ -648,7 +657,8 @@ footer ul li {
     margin: 30px auto;
 }
 
-.socialIcons svg {
+.socialIcons svg,
+.socialIcons-blue svg {
     margin: 5px;
 }
 
@@ -660,10 +670,18 @@ footer ul li {
     fill: #20CDF0;
 }
 
+.socialIconsFillProfile path {
+    fill: #10A5E9;
+}
+
+.socialIconsFillProfile:hover path {
+    fill: #0e0e0e;
+}
+
+
 .socialIconsFillHeadline:hover path {
     fill: #e9ecef;
 }
-
 
 .socialIconsFill:hover path {
     fill: #20CDF0;
@@ -934,6 +952,14 @@ h4 {
         width: 40%;
     }
 
+    .BOBbusinessName {
+        margin-top:15px;
+    }
+
+    .nominateList {
+        width: 80%;
+    }
+
     .billboardAd2,
     .img-fluid2 {
         margin: 30px auto 50px;
@@ -1065,6 +1091,10 @@ h4 {
     .socialIcons {
         margin-top: 50px;
     }
+
+    .socialIcons-blue {
+        margin-bottom: 25px;
+    }
     
     .contact {
         padding: 60px 0;
@@ -1160,6 +1190,10 @@ h4 {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+
+    .billboardAd4 {
+        margin: 30px auto 130px;
+    }
     
     .dropdown-menu {
         width: 800px;
@@ -1244,6 +1278,11 @@ h4 {
         margin-top: 10px;
     }
 
+
+    .nominateList {
+        width: 50%;
+        margin: auto;
+    }
 }
 
 @media (min-width: 1024px) { 
