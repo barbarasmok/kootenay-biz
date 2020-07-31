@@ -272,6 +272,37 @@ h2 {
     border-color: #10A5E9;
 }
 
+
+.btnBOBWinners {
+    color: #FFF;
+    border: none;
+    background-color: #10A5E9;
+    font-family: "Klavika";
+    margin: 5px;
+    display: block;
+}
+
+.btnBOBWinners:hover {
+    color: #FFF;
+    background-color: #0e0e0e;
+    border-color: #0e0e0e;
+}
+
+.btnBOBWinnersYellow {
+    color: #0e0e0e;
+    border: none;
+    background-color: #F7DD05;
+    font-family: "Klavika";
+    margin: 5px;
+    display: block;
+}
+
+.btnBOBWinnersYellow:hover {
+    color: #FFF;
+    background-color: #0e0e0e;
+    border-color: #0e0e0e;
+}
+
 .btn-primary {
     color: #0e0e0e;
     border: none;
@@ -378,6 +409,13 @@ h2 {
     display: block;
     font-size: 0.7rem;
     text-transform: none;
+}
+
+
+.disabled-link{
+    cursor: default;
+    pointer-events: none;
+    text-decoration: none;
 }
 
 .categorySubheadlines {
@@ -1023,7 +1061,9 @@ h4 {
 
     .btnBOBNominate,
     .btnBOBVote,
-    .btn-primary {
+    .btn-primary,
+    .btnBOBWinners,
+    .btnBOBWinnersYellow {
         display: inline-block;
     }
     
