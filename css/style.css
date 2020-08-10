@@ -9,8 +9,8 @@
 }
 
 @font-face {
-    font-family: "Klavika";
-    src: url("../fonts/klavika/Klavika-BoldItalic.otf");
+    font-family: "Lato";
+    src: url("../fonts/Lato/Lato-BoldItalic.otf");
 }
 
 body {
@@ -171,7 +171,9 @@ h2 {
 .jumboSubheadlines, 
 .bobSubheadlines {
     text-transform: uppercase;
-    font-family: "Klavika";
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 900;
     line-height: 1.1;
     width: 100%;
     padding: 0 15px;
@@ -181,6 +183,37 @@ h2 {
     margin: auto;
     font-size: 1.1rem; 
 }
+
+.jumboBOBTitle {
+    text-transform: uppercase;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    line-height: 1.1;
+    width: 60%;
+    padding: 40px 0 10px;
+    margin: 50px auto 0;
+    border: none;
+    text-align: center;
+    margin: auto;
+    font-size: 6rem; 
+}
+
+.BOBTitleItalic {
+    text-transform: uppercase;
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1.1;
+    width: 60%;
+    padding: 20px 0;
+    margin: 50px auto 0;
+    border: none;
+    text-align: center;
+    margin: auto;
+    font-size: 6rem; 
+    color: #10A5E9;
+}
+
 
 #map {
 	height: 500px;
@@ -246,9 +279,11 @@ h2 {
     color: #FFF;
     border: none;
     background-color: #EC0000;
-    font-family: "Klavika";
+    font-family: 'Lato';
     margin: 5px;
     display: block;
+    font-weight: 900;
+    font-style: italic;
 }
 
 .btnBOBNominate:hover {
@@ -261,9 +296,11 @@ h2 {
     color: #0e0e0e;
     border: none;
     background-color: #F7DD05;
-    font-family: "Klavika";
+    font-family: 'Lato';
     margin: 5px;
     display: block;
+    font-weight: 900;
+    font-style: italic;
 }
 
 .btnBOBVote:hover {
@@ -277,9 +314,11 @@ h2 {
     color: #FFF;
     border: none;
     background-color: #10A5E9;
-    font-family: "Klavika";
+    font-family: 'Lato';
     margin: 5px;
     display: block;
+    font-weight: 900;
+    font-style: italic;
 }
 
 .btnBOBWinners:hover {
@@ -292,9 +331,11 @@ h2 {
     color: #0e0e0e;
     border: none;
     background-color: #F7DD05;
-    font-family: "Klavika";
+    font-family: 'Lato';
     margin: 5px;
     display: block;
+    font-weight: 900;
+    font-style: italic;
 }
 
 .btnBOBWinnersYellow:hover {
@@ -307,7 +348,7 @@ h2 {
     color: #0e0e0e;
     border: none;
     background-color: #e9ecef;
-    font-family: "Lato";
+    font-family: 'Lato';
     margin: 5px;
     display: block;
 }
@@ -318,9 +359,11 @@ h2 {
     color: #FFF;
     border: none;
     background-color: #0e0e0e;
-    font-family: "Klavika";
+    font-family: 'Lato';
     margin: 5px;
     display: block;
+    font-weight: 900;
+    font-style: italic;
 }
 
 .btnCategory {
@@ -1027,7 +1070,7 @@ h4 {
     }
     
     .billboardAd3 {
-        margin: 30px auto 50px;
+        margin: 100px auto 50px;
         width: 60%;
     }
     
