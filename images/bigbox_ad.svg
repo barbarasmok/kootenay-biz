@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="300px" height="250px" viewBox="0 0 300 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
-    <title>Big Box ad</title>
-    <desc>Created with Sketch.</desc>
+    <title>Group</title>
     <g id="KB-Home-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="KB---Home-page---Desktop" transform="translate(-911.000000, -3138.000000)" fill="#00EAFF" fill-rule="nonzero">
-            <g id="Big-Box-ad" transform="translate(911.000000, 3138.000000)">
-                <rect id="Rectangle-Copy" x="0" y="0" width="300" height="250"></rect>
+        <g id="KB---Home-page---Desktop" transform="translate(-918.000000, -5972.000000)">
+            <g id="Group" transform="translate(918.000000, 5972.000000)">
+                <g fill="#00EAFF" fill-rule="nonzero" id="Rectangle-Copy">
+                    <g>
+                        <rect x="0" y="0" width="300" height="250"></rect>
+                    </g>
+                </g>
+                <text id="BigBox-Ad-(300x250)" font-family="Lato-Bold, Lato" font-size="18" font-weight="bold" line-spacing="24" fill="#000000">
+                    <tspan x="107.713" y="108">BigBox Ad </tspan>
+                    <tspan x="107.92" y="132">(300x250)</tspan>
+                </text>
             </g>
         </g>
     </g>
