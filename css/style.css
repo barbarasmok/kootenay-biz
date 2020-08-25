@@ -189,9 +189,15 @@ a:hover {
     border-color: #10A5E9;
 }
 
-.dropdown-toggler{
-    background-image: url('../images/white_bars.svg');
+.navbar-light .navbar-toggler {
+    color: #fff;
+    border-color: none;
 }
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../images/white_bars.svg);
+}
+
 
 .areaMenuText {
     padding: .25rem 1.5rem;
