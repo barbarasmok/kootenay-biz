@@ -156,7 +156,25 @@ a:hover {
     list-style: none;
     margin-right: 0;
 }
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    font-size: 0.9rem;
+}
 
+.nav-link-footer {
+    display: block;
+    padding: .5rem 0.5rem;
+    font-size: 0.8rem;
+    margin: 0 5px;
+    color: #fff;
+}
+
+.form-control::placeholder {
+    color: #6c757d;
+    opacity: 1;
+    font-size: 0.9rem;
+}
 
 
 
