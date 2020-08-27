@@ -744,6 +744,7 @@ p {
     background-color: #fff;
     background-clip: border-box;
     border: none;
+    MARGIN-TOP: 20PX;
 }
 
 .card-img, .card-img-top {
@@ -759,6 +760,11 @@ p {
     padding: 1.23rem 0;
 }
 
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 0;
+}
 
 /* SECTION 2*/
 .promotedText {
@@ -788,7 +794,11 @@ p {
 }
 
 .desText {
-    margin-top: 20px;
+    margin-top: 10px;
+}
+
+.desText2 {
+    margin-top: 0;
 }
 
 
@@ -1468,7 +1478,7 @@ h4 {
     }
 
     p {
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
     }
 
     .leadNavLink {
