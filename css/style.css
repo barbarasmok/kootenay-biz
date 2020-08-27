@@ -1007,7 +1007,8 @@ svg {
 }
 
 .copyrigthText {
-    padding-top: 20px;
+    padding: 20px 5px;
+    letter-spacing: 0.02rem;
 }
 
 .footerLogo {
