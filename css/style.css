@@ -284,7 +284,7 @@ h3 {
 }
 
 h2 {
-    margin-top:20px;
+    margin-top:15px;
 }
 
 .categoryHeadlines {
@@ -684,7 +684,7 @@ h2 {
 
 
 .order-lg-2.mostRead {
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 
@@ -778,7 +778,7 @@ p {
     background-color: #fff;
     background-clip: border-box;
     border: none;
-    MARGIN-TOP: 20PX;
+    MARGIN-TOP: 0;
 }
 
 .card-img, .card-img-top {
@@ -1302,12 +1302,12 @@ h4 {
     }
 
     .newsletter {
-        margin-bottom: 150px;
+        margin-bottom: 120px;
     }
 
     .sectionDivider {
         height: 0;
-        margin: 2rem 0 3rem;
+        margin: 1rem 0;
         overflow: hidden;
         border-top: 2px solid #e9ecef;
     }
@@ -1604,7 +1604,7 @@ h4 {
     .img-fluid {
         max-width: 100%;
         height: auto;
-        margin: 60px auto 20px;
+        margin: 0 auto 15px;
         vertical-align: middle;
         text-align: center;
     }
@@ -1642,16 +1642,16 @@ h4 {
     }
 
     .billboardAd {
-        margin: 150px auto 20px;
+        margin: 120px auto 40px;
     }
 
     .billboardAd2 {
-        margin: 100px auto 100px;
+        margin: 30px auto 40px;
     }
 
     .categoryHeadlines {
         width: 50%;
-        margin-top: 40px;
+        margin-top: 5px;
         margin-bottom: 0px;
     }
     .categorySubheadlinesSmall {
