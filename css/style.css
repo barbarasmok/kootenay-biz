@@ -676,7 +676,7 @@ h2 {
 .communityFeaturedImage {
     vertical-align: middle;
     border-style: none;
-    margin: 30px auto;
+    margin: 30px auto 15px;
     max-width: 100%;
     height: auto;
     text-align: center;
@@ -747,7 +747,7 @@ p {
 
 .authorsDidiver {
     height: 0;
-    margin: 1rem 0 1rem;
+    margin: 0.5rem 0;
     overflow: hidden;
     border-top: 2px solid #e9ecef;
     width: 95%%;
