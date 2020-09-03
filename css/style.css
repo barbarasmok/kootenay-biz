@@ -1496,7 +1496,7 @@ h4 {
     .contact {
         padding: 60px 0;
         background: #F8F8F8;
-        margin-bottom: 150px;
+        margin-bottom: 80px;
     }
     
     .billboardAd {
@@ -1631,7 +1631,7 @@ h4 {
   
     .form-inline .form-control {
         display: inline-block;
-        width: auto;
+        width: 50%;
         vertical-align: middle;
         text-align: left;
     }
@@ -1689,7 +1689,7 @@ h4 {
     }
 
     .boxes {
-        margin: 150px auto;
+        margin: 50px auto;
     }
 
     .sidebarAds {
