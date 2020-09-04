@@ -91,6 +91,7 @@ a:hover {
 	color: #20CDF0 !important;
 	background: transparent !important;
 }
+
 .search-box {
 	position: relative;
 }	
@@ -1245,7 +1246,134 @@ h4 {
     width: 95%;
 }
 
+/*-------------------------------------------------*/
+/* =  Footer
+/*-------------------------------------------------*/
+footer {
+    background: #222222;
+  }
+  footer .up-footer {
+    padding: 70px 0;
+  }
+  footer .up-footer h2 {
+    color: #222222;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 0 0 15px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  footer .up-footer p {
+    color: #ffffff;
+  }
+  footer .up-footer img {
+    margin-top: 20px;
+  }
+  footer .up-footer ul.tag-list {
+    margin: 0;
+    padding: 0;
+  }
+  footer .up-footer ul.tag-list li {
+    display: inline-block;
+    margin-right: 2px;
+    margin-bottom: 6px;
+  }
+  footer .up-footer ul.tag-list li a {
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    padding: 8px 18px;
+    color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+  }
+  footer .up-footer ul.tag-list li a:hover {
+    background: #ffba00;
+    border: 1px solid #ffba00;
+  }
+  footer .up-footer ul.navigation {
+    margin: 0;
+    padding: 0;
+  }
+  footer .up-footer ul.navigation li {
+    list-style: none;
+    margin-bottom: 5px;
+  }
+  footer .up-footer ul.navigation li a {
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(255, 255, 255, 0.9);
+  }
+  footer .up-footer ul.navigation li a:hover {
+    color: #ffba00;
+  }
+  footer .up-footer ul.flickr {
+    margin: 0;
+    padding: 0;
+  }
+  footer .up-footer ul.flickr li {
+    margin-bottom: 5px;
+    margin-right: 1px;
+    display: inline-block;
+  }
+  footer .up-footer ul.flickr li a {
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+  }
+  footer .up-footer ul.flickr li a img {
+    margin: 0;
+  }
+  footer .up-footer ul.flickr li a:hover {
+    opacity: 0.7;
+  }
+  footer .up-footer .info-widget p {
+    margin-bottom: 5px;
+  }
+  footer .up-footer .info-widget p span {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffba00;
+  }
+  footer .up-footer .info-widget p.first-par {
+    margin-bottom: 20px;
+  }
+  footer p.copyright {
+    padding: 25px 0;
+    background: #ffba00;
+    border-top: 1px dotted #717173;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+  }
 
+  .nav-link-footer {
+    text-transform: none;
+    text-align: left;
+    font-style: none;
+  }
 
 /* /////////////////////////////////////////////////////
 /////////////// MEDIA QUERIES ////////////////////////*/
@@ -1494,8 +1622,6 @@ h4 {
         list-style: none;
         padding-top: 2px;
         text-transform: uppercase;
-        font-style: italic;
-        font-weight: 900;
         font-size: 0.9rem;
         text-align: right;
     }
