@@ -869,19 +869,18 @@ dl, ol, ul {
 
 /* SUBSCRIBE*/
 .newsletter {
-    padding: 50px 0;
-    background: #F8F8F8;
+    background: #20CDF0;
     margin-bottom: 50px;
+    padding: 10px;
 }
     
 .newsletter .content {
     max-width: 750px;
     margin: 0 auto;
-    text-align: center;
+    padding: 20px;
     position: relative;
-    z-index: 2; 
+    z-index: 2;
 }
-
 .btn-outline-success2 {
     color: #FFF;
     border-color: #02133F;
@@ -895,19 +894,32 @@ dl, ol, ul {
     border-color: #20CDF0;
 }
 
+.btn-secondary {
+    color: #fff;
+    background-color: #20CDF0;
+    border-color: #20CDF0;
+}
+
+.btn-secondary:hover {
+    color: #000;
+    background-color: #20CDF0;
+    border-color: #20CDF0;
+}
+
 .form-control {
     margin: 10px;
 }
 
 .eNewsText {
-    margin: 0 auto 30px;
-    width: 80%;
+    margin: 10px auto 30px;
+    /* width: 80%; */
     text-align: center;
 }
 
 .eNewsHeadline {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     font-size: 1.75rem;
+    text-align: center;
 }
 
 /* FORM*/
@@ -1009,6 +1021,7 @@ footer.page-footer .footer-copyright {
     overflow: hidden;
     color: black;
     background-color: #e9ecef;
+    font-weight: 900;
 }
 .mb-0, .my-0 {
     margin-bottom: 0!important;
@@ -1019,7 +1032,7 @@ footer.page-footer .footer-copyright {
     margin-top: 20px;
 }
 .footerLogo {
-    width: 100%;
+    width: 80%;
 }
 
 
@@ -1359,14 +1372,39 @@ footer {
   }
   footer p.copyright {
     padding: 25px 0;
-    background: #ffba00;
-    border-top: 1px dotted #717173;
+    background: #e9ecef;
+    border-top: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    text-align: center;
+    margin: 0;
+  }
+
+  footer p.newsletter {
+    padding: 25px 0;
+    background: #000;
+    border-top: none;
     text-transform: uppercase;
     font-size: 13px;
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     text-align: center;
     margin: 0;
+  }
+
+  footer p.newsletter a {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+  }
+
+  footer p.newsletter a:hover {
+    color: #ffba00;
   }
 
   .nav-link-footer {
@@ -1402,6 +1440,10 @@ footer {
     .form-inline .input-group {
 		width: 250px;
 		margin-right: 30px;
+    }
+
+    .footerLogo {
+        width: 100%;
     }
 
     .footer-bs .footer-nav, 
@@ -1450,7 +1492,7 @@ footer {
     }
 
     .newsletter {
-        margin-bottom: 120px;
+        margin-bottom: 50px;
     }
 
     .sectionDivider {
@@ -1689,10 +1731,10 @@ footer {
     }
 
     .eNewsText {
-        width: 60%;
-        margin: 0 auto 40px;
+        width: 80%;
+        margin: 10px auto 20px;
+        text-align: center;
     }
-
     .form-control {
         margin: 20px;
     }
@@ -1821,6 +1863,9 @@ footer {
         font-size: 2.5rem;   
     }
 
+    .eNewsHeadline {
+        font-size: 2rem; 
+    }
     .form-control {
         margin: 10px;
     }
