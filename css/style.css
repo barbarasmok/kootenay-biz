@@ -1100,6 +1100,10 @@ h4 {
 .storyText {
     width: 95%;
 }
+.badge-secondary {
+    color: #000;
+    background-color: #ffba00;
+}
 
 /*-------------------------------------------------*/
 /* =  Footer
@@ -1225,12 +1229,12 @@ footer p.copyright {
 }
 footer p.newsletter {
     padding: 25px 0;
-    background: #000;
+    background: #ffba00;
     border-top: none;
     text-transform: uppercase;
     font-size: 13px;
     font-family: 'Montserrat', sans-serif;
-    color: #ffffff;
+    color: #000;
     text-align: center;
     margin: 0;
 }
@@ -1238,12 +1242,12 @@ footer p.newsletter a {
     text-transform: uppercase;
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
-    color: #ffffff;
+    color: #000;
     text-align: center;
     margin: 0;
 }
 footer p.newsletter a:hover {
-    color: #ffba00;
+    color: #000;
 }
 .nav-link-footer {
     text-transform: none;
@@ -1479,7 +1483,7 @@ footer p.newsletter a:hover {
         margin-bottom: 80px;
     }
     .billboardAd {
-        margin: 130px auto 50px;
+        margin: 100px auto 50px;
     }
     .billboardAd2 {
         margin: 50px auto 50px;
@@ -1586,10 +1590,10 @@ footer p.newsletter a:hover {
         margin-top: 50px;
     }
     .billboardAd {
-        margin: 180px auto 40px;
+        margin: 100px auto 40px;
     }
     .billboardAd2 {
-        margin: 30px auto 40px;
+        margin: 30px auto 80px;
     }
     .categoryHeadlines {
         width: 50%;
