@@ -607,7 +607,6 @@ h2 {
 }
 .sidebarText {
     font-size: 0.8rem;
-    font-weight: 900;
 }
 .divider {
     height: 0;
@@ -628,7 +627,7 @@ p {
     margin-bottom: 5px;
     text-transform: uppercase;
     color: #747474;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 .sectionDivider {
     height: 0;
@@ -719,7 +718,7 @@ dl, ol, ul {
 .desText {
     margin-top: 10px;
     font-size: 1.2rem;
-    line-height: 1.4;
+    line-height: 1.7;
 }
 .desText2 {
     margin-top: 0;
@@ -731,9 +730,19 @@ dl, ol, ul {
     color: #FFF;
     font-weight: bolder;
     font-style: italic;
-    background-color: #02133F;
+    background-color: #383a3b;
     padding: 10px 30px;
-    margin-top: 20px;
+    margin-top: 0;
+}
+.sponsorBusinessHeadlines2 {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bolder;
+    font-style: italic;
+    background-color: #EC0000;
+    padding: 10px 30px;
+    margin-top: 0;
+    display: block;
 }
 .sponsorBusinessMainHeadlines {
     text-transform: uppercase;
@@ -743,6 +752,18 @@ dl, ol, ul {
     background-color: #02133F;
     padding: 10px 30px;
     margin-top: 30px;
+}
+
+.communityInsightsHeadlines {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bolder;
+    font-style: italic;
+    background-color: #ffba00;
+    padding: 10px 30px;
+    margin-top: 0px;
+    width: 100%;
+    display: block;
 }
 
 /* SUBSCRIBE*/
@@ -1535,7 +1556,7 @@ footer p.newsletter a:hover {
     .img-fluid {
         max-width: 100%;
         height: auto;
-        margin: 0 auto 15px;
+        margin: 10px auto 20px;
         vertical-align: middle;
         text-align: center;
     }
