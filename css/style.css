@@ -547,6 +547,14 @@ h2 {
     font-weight: bolder;
     margin-top: 30px;
 }
+
+.categorySubheadlines2 {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bolder;
+    margin-top: 30px;
+    font-family: 'Merriweather', serif;
+}
 .md-form {
     width: 100%;
     margin: auto;
@@ -569,6 +577,9 @@ h2 {
 h2 {
     font-weight: bolder;
     font-size: 2.5rem;
+}
+.headlineNewStyle {
+    font-family: 'Merriweather', serif;
 }
 .text-uppercase {
     width: 50%;
@@ -716,7 +727,6 @@ dl, ol, ul {
     font-size: 2.3rem;
 }
 .desText {
-    margin-top: 10px;
     font-size: 1.2rem;
     line-height: 1.7;
 }
@@ -753,7 +763,6 @@ dl, ol, ul {
     padding: 10px 30px;
     margin-top: 30px;
 }
-
 .communityInsightsHeadlines {
     text-transform: uppercase;
     color: #000;
@@ -1228,7 +1237,7 @@ footer p.copyright {
     margin: 0;
 }
 footer p.newsletter {
-    padding: 25px 0;
+    padding: 15px 0;
     background: #ffba00;
     border-top: none;
     text-transform: uppercase;
@@ -1593,7 +1602,7 @@ footer p.newsletter a:hover {
         margin: 100px auto 40px;
     }
     .billboardAd2 {
-        margin: 30px auto 80px;
+        margin: 50px auto 80px;
     }
     .categoryHeadlines {
         width: 50%;

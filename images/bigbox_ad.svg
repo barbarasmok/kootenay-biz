@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="300px" height="250px" viewBox="0 0 300 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Group</title>
-    <g id="KB-Home-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="KB---Home-page---Desktop" transform="translate(-918.000000, -5972.000000)">
-            <g id="Group" transform="translate(918.000000, 5972.000000)">
-                <g fill="#00EAFF" fill-rule="nonzero" id="Rectangle-Copy">
-                    <g>
-                        <rect x="0" y="0" width="300" height="250"></rect>
-                    </g>
-                </g>
-                <text id="BigBox-Ad-(300x250)" font-family="Lato-Bold, Lato" font-size="18" font-weight="bold" line-spacing="24" fill="#000000">
-                    <tspan x="107.713" y="108">BigBox Ad </tspan>
-                    <tspan x="107.92" y="132">(300x250)</tspan>
+    <title>bigbox_ad</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bigbox_ad" fill-rule="nonzero">
+            <g id="Rectangle-Copy" fill="#E1E1E1">
+                <rect id="Rectangle" x="0" y="0" width="300" height="250"></rect>
+            </g>
+            <g id="BigBox-Ad-(300x250)" transform="translate(107.000000, 90.000000)" fill="#000000" font-family="Lato-Bold, Lato" font-size="18" font-weight="bold">
+                <text id="BigBox-Ad">
+                    <tspan x="0.713" y="18">BigBox Ad</tspan>
+                </text>
+                <text id="(300x250)">
+                    <tspan x="0.92" y="42">(300x250)</tspan>
                 </text>
             </g>
         </g>
