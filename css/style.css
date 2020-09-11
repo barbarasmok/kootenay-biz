@@ -763,10 +763,10 @@ dl, ol, ul {
 }
 .sponsorBusinessHeadlines2 {
     text-transform: uppercase;
-    color: #fff;
+    color: #000;
     font-weight: bolder;
     font-style: italic;
-    background-color: #EC0000;
+    background-color: #ffba00;
     padding: 10px 30px;
     margin-top: 0;
     display: block;
@@ -782,10 +782,10 @@ dl, ol, ul {
 }
 .communityInsightsHeadlines {
     text-transform: uppercase;
-    color: #000;
+    color: #fff;
     font-weight: bolder;
     font-style: italic;
-    background-color: #ffba00;
+    background-color: #02133F;
     padding: 10px 30px;
     margin-top: 0px;
     width: 100%;
@@ -1126,18 +1126,19 @@ h4 {
     width: 95%;
 }
 .badge-secondary {
-    color: #000;
-    background-color: #ffba00;
+    color: #fff;
+    background-color: #02133F;
 }
 
 /*-------------------------------------------------*/
 /* =  Footer
 /*-------------------------------------------------*/
 footer {
-    background: #222222;
+    background: #02133F;
 }
 footer .up-footer {
     padding: 70px 0;
+    background-color: #02133F;
 }
 footer .up-footer h2 {
     color: #222222;
@@ -1236,7 +1237,7 @@ footer .up-footer .info-widget p {
 }
 footer .up-footer .info-widget p span {
     font-family: 'Montserrat', sans-serif;
-    color: #ffba00;
+    color: #20CDF0;
 }
 footer .up-footer .info-widget p.first-par {
     margin-bottom: 20px;
@@ -1254,7 +1255,7 @@ footer p.copyright {
 }
 footer p.newsletter {
     padding: 15px 0;
-    background: #383a3b;
+    background: #0e0e0e;
     border-top: none;
     text-transform: uppercase;
     font-size: 13px;
@@ -1573,10 +1574,13 @@ footer p.newsletter a:hover {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
     .navbar {
-        background: #383a3b;
+        background: #02133F;
         padding: 10px 40px;
         border-bottom: none;
         box-shadow: 0 0 4px rgba(0,0,0,.1);
+    }
+    .bg-dark {
+        background-color: #02133F!important;
     }
     .disclaimer {
         margin: 30px auto 80px;
