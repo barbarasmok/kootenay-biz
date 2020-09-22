@@ -30,11 +30,19 @@ a:hover {
 .navbar .navbar-brand {
     color: #555;
     font-family: 'Raleway', sans-serif;
-  
 }
 .navbar-brand img {
-    width: 100%;
+    width: 120%;
     margin:auto;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right:0;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
 }
 .navbar-toggler {
     padding: .25rem .50rem;
@@ -68,6 +76,11 @@ a:hover {
     margin-left: 100px;
 }
 
+@media (min-width: 992px) {
+    .form-inline {
+        margin-left: 10px;
+    } 
+}
 @media (min-width: 1024px) {
     .navbar .navbar-brand {
         color: #555;
@@ -80,22 +93,56 @@ a:hover {
         margin: auto;
     }
 }
-
+@media (min-width: 1200px) {
+    .form-inline {
+        margin-left: 100px;
+    } 
+}
 .socialIcons a {
     color: white;
     padding: 5px;
     margin: 0 5px;
 }
-
+.socialIconsTop a {
+    color:#02133F;
+    padding: 5px;
+    margin: 0 5px;
+}
+.socialIconsTop a:hover {
+    color: #20CDF0;
+}
 .socialIcons a:hover {
     color: #20CDF0;
 }
-
-.navbar-fixed-top.scrolled {
-    background-color: #fff !important;
-    transition: background-color 200ms linear;
+.navbar-nav {
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: #FFF;
+    font-weight: 600;
 }
-
+.navbar-light .navbar-nav .nav-link {
+    color: #FFF;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: #20CDF0;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #20CDF0;
+}
+.form-inline .form-control {
+    display: inline-block;
+    width: 65%;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 0.8rem;
+}
+.bg-dark2 {
+    background-color:#000;
+}
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("../images/togglebars.svg");
+}
 /*END NAVBAR2*/
 
 
@@ -126,6 +173,7 @@ hr {
     color: #FFF;
     border-color: #20CDF0;
     background-color: #20CDF0;
+    font-size: 0.8rem;
 }
 
 .btn-outline-success:hover {
@@ -766,6 +814,7 @@ dl, ol, ul {
 
 /* FORM*/
 .socialIcons,
+.socialIconsTop
 .socialIcons-blue {
     display: flex;
     flex-wrap: wrap;
@@ -1240,7 +1289,8 @@ footer p.newsletter a:hover {
         padding-bottom: 0px;
         margin-bottom: 10px;
     }
-    .socialIcons {
+    .socialIcons,
+    .socialIconsTop {
         display: flex;
         flex-wrap: wrap;
         float: right;
@@ -1504,6 +1554,7 @@ footer p.newsletter a:hover {
         width: 65%;
         vertical-align: middle;
         text-align: left;
+        font-size: 0.8rem;
     }
     .form-inline2 .form-control {
         width: 100%;
