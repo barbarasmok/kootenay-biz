@@ -76,8 +76,8 @@ a:hover {
       
     }
     .navbar-brand img {
-        width: 40%;
-        margin:auto;
+        width: 45%;
+        margin: auto;
     }
 }
 
@@ -1238,6 +1238,7 @@ footer p.newsletter a:hover {
     .socialIcons {
         display: flex;
         flex-wrap: wrap;
+        float: right;
     }
     .order-lg-2.mostRead {
         margin-top: 0;
