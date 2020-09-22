@@ -761,7 +761,7 @@ dl, ol, ul {
 }
 .desText {
     font-size: 1.2rem;
-    line-height: 1.7;
+    line-height: 1.4;
 }
 .desText2 {
     margin-top: 0;
@@ -770,22 +770,22 @@ dl, ol, ul {
 /* SECTION 4*/
 .sponsorBusinessHeadlines {
     text-transform: uppercase;
-    color: #FFF;
+    color: #000;
     font-weight: bolder;
-    font-style: italic;
-    background-color: #02133F;
-    padding: 10px 30px;
+    font-family: 'Merriweather', serif;
+    background-color: #ffba00;
+    padding: 5px 15px;
     margin-top: 0;
 }
 .sponsorBusinessHeadlines2 {
     text-transform: uppercase;
     color: #000;
     font-weight: bolder;
-    font-style: italic;
     background-color: #ffba00;
-    padding: 10px 30px;
+    padding: 5px 15px;
     margin-top: 0;
     display: block;
+    font-family: 'Merriweather', serif;
 }
 .sponsorBusinessMainHeadlines {
     text-transform: uppercase;
@@ -1652,7 +1652,7 @@ footer p.newsletter a:hover {
     }
     .sidebarText {
         font-size: 0.8rem;
-        line-height: 1.5;
+        line-height: 1.4;
     }
     .card-body {
         padding: 0.5rem 0;
