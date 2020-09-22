@@ -546,7 +546,7 @@ h2 {
 .jumboBtnsSmall2Yellow {
     color: #0e0e0e;
     border: none;
-    background-color: #F7DD05;
+    background-color: #ffba00;
     font-family: 'Lato';
     margin: 5px;
     display: block;
@@ -560,17 +560,31 @@ h2 {
 }
 .categorySubheadlines {
     text-transform: uppercase;
-    color: #000;
+    color: #20CDF0;
     font-weight: bolder;
     margin-top: 30px;
+    font-style: italic;
+}
+
+.categorySubheadlines:hover {
+    color: #000;
+}
+
+.categorySubheadlines2:hover {
+    color: #000;
+}
+
+.sidebarSubheadlines:hover {
+    color: #000;
 }
 
 .categorySubheadlines2 {
     text-transform: uppercase;
-    color: #000;
+    color: #20CDF0;
     font-weight: bolder;
     margin-top: 30px;
     font-family: 'Merriweather', serif;
+    font-style: italic;
 }
 .md-form {
     width: 100%;
@@ -628,7 +642,7 @@ h2 {
 }
 .sidebarSubheadlines {
     text-transform: uppercase;
-    color: #000;
+    color: #20CDF0;
     font-weight: bolder;
     font-style: italic;
     margin-top: 15px;
@@ -654,8 +668,9 @@ p {
     margin-top: 0;
     margin-bottom: 5px;
     text-transform: uppercase;
-    color: #747474;
+    color: #20CDF0;
     font-size: 0.7rem;
+    font-style: italic;
 }
 .sectionDivider {
     height: 0;
@@ -1398,7 +1413,7 @@ footer p.newsletter a:hover {
         width: 80%;
     }
     .billboardAd2,
-    .img-fluid2 {
+    .img-fluid2 {orie
         margin: 30px auto 50px;
         width: 100%;
     }
