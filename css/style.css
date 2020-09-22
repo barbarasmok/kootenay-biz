@@ -823,8 +823,8 @@ dl, ol, ul {
 }
 .btn-outline-success2 {
     color: #FFF;
-    border-color: #02133F;
-    background-color: #02133F;
+    border-color: #000;
+    background-color: #000;
     margin: 10px;
 }
 .btn-outline-success2:hover {
@@ -1150,11 +1150,11 @@ h4 {
 /* =  Footer
 /*-------------------------------------------------*/
 footer {
-    background: #02133F;
+    background: #000;
 }
 footer .up-footer {
     padding: 70px 0;
-    background-color: #02133F;
+    background-color: #000;
 }
 footer .up-footer h2 {
     color: #222222;
@@ -1271,7 +1271,7 @@ footer p.copyright {
 }
 footer p.newsletter {
     padding: 15px 0;
-    background: #0e0e0e;
+    background: #02133F;
     border-top: none;
     text-transform: uppercase;
     font-size: 13px;
