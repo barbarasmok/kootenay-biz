@@ -998,7 +998,7 @@ footer {
     background: #000;
 }
 footer .up-footer {
-    padding: 70px 0;
+    padding: 40px 0;
     background-color: #000;
 }
 footer .up-footer h2 {
@@ -1104,7 +1104,7 @@ footer .up-footer .info-widget p.first-par {
     margin-bottom: 20px;
 }
 footer p.copyright {
-    padding: 25px 0;
+    padding: 10px 0;
     background: #e9ecef;
     border-top: none;
     text-transform: uppercase;
@@ -1115,7 +1115,7 @@ footer p.copyright {
     margin: 0;
 }
 footer p.newsletter {
-    padding: 15px 0;
+    padding: 10px 0;
     background: #02133F;
     border-top: none;
     text-transform: uppercase;
