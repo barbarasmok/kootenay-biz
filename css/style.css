@@ -91,6 +91,11 @@ a:hover {
     color: #20CDF0;
 }
 
+.navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+}
+
 /*END NAVBAR2*/
 
 
