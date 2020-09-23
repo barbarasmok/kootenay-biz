@@ -65,6 +65,10 @@ a:hover {
         left: 0;
         z-index: 1030;
     }
+    .navbar-brand img {
+        width: 90%;
+        margin:auto;
+    }
 }
 .form-inline {
     display: -ms-flexbox;
@@ -101,7 +105,6 @@ a:hover {
 .socialIcons a {
     color: white;
     padding: 5px;
-    margin: 0 5px;
 }
 .socialIconsTop a {
     color:#02133F;
@@ -191,8 +194,7 @@ a:hover {
     background-clip: padding-box;
     border: 1px solid rgba(0,0,0,.15);
     border-radius: .25rem;
-}
-    
+}   
 /*END NAVBAR2*/
 
 
@@ -1539,7 +1541,7 @@ footer p.newsletter a:hover {
     .img-fluid {
         max-width: 100%;
         height: auto;
-        margin: 130px auto 20px;
+        margin: 40px auto 20px;
         vertical-align: middle;
         text-align: center;
     }
