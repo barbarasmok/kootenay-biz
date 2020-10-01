@@ -233,6 +233,19 @@ hr {
     border-color: #FFF;
     background-color: #FFF;
 }
+
+.btnViewAll {
+    color: #FFF;
+    border-color: #02133F;
+    background-color: #02133F;
+    font-size: 0.8rem;
+}
+.btnViewAll:hover {
+    color: #FFF;
+    border-color: #20CDF0;
+    background-color: #20CDF0;
+}
+
 .btn-primary {
     color: #000;
     border-color: #20CDF0;
