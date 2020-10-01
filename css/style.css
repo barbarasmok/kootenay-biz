@@ -290,8 +290,11 @@ h3 {
     MARGIN-BOTTOM: 30PX;
 }
 h2 {
+    font-weight: bolder;
+    font-size: 2rem;
     margin-top:15px;
     line-height: 1.1;
+    font-weight: bolder;
 }
 .categoryHeadlines {
     width: 50%;
@@ -625,10 +628,6 @@ h2 {
     background-color: #FCFCFC;
     margin-top: 100px;
 }
-h2 {
-    font-weight: bolder;
-    font-size: 2.5rem;
-}
 .headlineNewStyle {
     font-family: 'Merriweather', serif;
 }
@@ -647,7 +646,7 @@ h2 {
 .businessbeatImage {
     vertical-align: middle;
     border-style: none;
-    margin: 30px auto;
+    margin: 0 auto 10px;
 }
 .communityFeaturedImage {
     vertical-align: middle;
@@ -1343,6 +1342,11 @@ footer p.newsletter a:hover {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {  
+    .businessbeatImage {
+        vertical-align: middle;
+        border-style: none;
+        margin: 30px auto;
+    }
     .footer-bs .footer-nav, 
     .footer-bs .footer-social, 
     .footer-bs .footer-ns { 
