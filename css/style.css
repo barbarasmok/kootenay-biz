@@ -20,7 +20,7 @@ a {
     text-decoration: none;
 }
 a:hover {
-    color: #20CDF0;
+    color: #00C9B7;
     text-decoration: none;
 }
 
@@ -112,10 +112,10 @@ a:hover {
     margin: 0 5px;
 }
 .socialIconsTop a:hover {
-    color: #20CDF0;
+    color: #00C9B7;
 }
 .socialIcons a:hover {
-    color: #20CDF0;
+    color: #00C9B7;
 }
 .navbar-nav {
     list-style: none;
@@ -128,10 +128,10 @@ a:hover {
     color: #FFF;
 }
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
-    color: #20CDF0;
+    color: #00C9B7;
 }
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #20CDF0;
+    color: #00C9B7;
 }
 .form-inline .form-control {
     display: inline-block;
@@ -200,7 +200,7 @@ a:hover {
 
 
 .readMore {
-    color: #20CDF0;
+    color: #00C9B7;
     font-weight: bold;
 }
 .readMore:hover {
@@ -219,12 +219,12 @@ hr {
 }
 .btnTopMenu:hover {
     color: #0e0e0e;
-    background-color: #20CDF0;
+    background-color: #00C9B7;
 }
 .btn-outline-success {
     color: #FFF;
-    border-color: #20CDF0;
-    background-color: #20CDF0;
+    border-color: #00C9B7;
+    background-color: #00C9B7;
     font-size: 0.8rem;
 }
 
@@ -242,14 +242,14 @@ hr {
 }
 .btnViewAll:hover {
     color: #FFF;
-    border-color: #20CDF0;
-    background-color: #20CDF0;
+    border-color: #00C9B7;
+    background-color: #00C9B7;
 }
 
 .btn-primary {
     color: #000;
-    border-color: #20CDF0;
-    background-color: #20CDF0;
+    border-color: #00C9B7;
+    background-color: #00C9B7;
 }
 .btn-primary:hover {
     color: #FFF;
@@ -258,7 +258,7 @@ hr {
 }
 .areaMenuText {
     padding: .25rem 1.5rem;
-    color: #20CDF0;
+    color: #00C9B7;
     font-size: 0.85rem;
 }
 .rightSideMenu {
@@ -282,7 +282,7 @@ hr {
 /* SECTION 1*/
 h3 {
     text-transform: uppercase;
-    border-left: solid #20CDF0 4px;
+    border-left: solid #00C9B7 4px;
     font-style: italic;
     font-weight: bolder;
     line-height: 1.1;
@@ -352,7 +352,7 @@ h2 {
     text-align: center;
     margin: auto;
     font-size: 3.5rem; 
-    color: #10A5E9;
+    color: #00C9B7;
 }
 .month {
     font-weight: bolder;
@@ -583,7 +583,7 @@ h2 {
 }
 .categorySubheadlines {
     text-transform: uppercase;
-    color: #20CDF0;
+    color: #00C9B7;
     font-weight: bolder;
     margin-top: 30px;
     font-style: italic;
@@ -603,7 +603,7 @@ h2 {
 
 .categorySubheadlines2 {
     text-transform: uppercase;
-    color: #20CDF0;
+    color: #00C9B7;
     font-weight: bolder;
     margin-top: 30px;
     font-family: 'Merriweather', serif;
@@ -636,7 +636,7 @@ h2 {
     margin-top: 10px;
     margin-bottom: 10px;
     text-transform: none;
-    border-left: solid #20CDF0 4px;
+    border-left: solid #00C9B7 4px;
     font-style: italic;
     font-weight: bolder;
     line-height: 1.1;
@@ -648,7 +648,7 @@ h2 {
     margin-top: 10px;
     margin-bottom: 10px;
     text-transform: uppercase;
-    border-left: solid #20CDF0 4px;
+    border-left: solid #00C9B7 4px;
     font-style: italic;
     font-weight: bolder;
     line-height: 1.1;
@@ -673,7 +673,7 @@ h2 {
 }
 .sidebarSubheadlines {
     text-transform: uppercase;
-    color: #20CDF0;
+    color: #00C9B7;
     font-weight: bolder;
     font-style: italic;
     margin-top: 15px;
@@ -703,7 +703,7 @@ p {
     margin-top: 0;
     margin-bottom: 5px;
     text-transform: uppercase;
-    color: #20CDF0;
+    color: #00C9B7;
     font-size: 0.7rem;
     font-style: italic;
 }
@@ -804,18 +804,18 @@ dl, ol, ul {
 /* SECTION 4*/
 .sponsorBusinessHeadlines {
     text-transform: uppercase;
-    color: #000;
+    color: #FFF;
     font-weight: 900;
     font-family: 'Merriweather', serif;
-    background-color: #ffba00;
+    background-color: #C90040;
     padding: 5px 15px;
     margin-top: 0;
 }
 .sponsorBusinessHeadlines2 {
     text-transform: uppercase;
-    color: #000;
+    color: #FFF;
     font-weight: 900;
-    background-color: #ffba00;
+    background-color: #C90040;
     padding: 5px 15px;
     margin-top: 0;
     display: block;
@@ -863,18 +863,18 @@ dl, ol, ul {
 }
 .btn-outline-success2:hover {
     color: #000;
-    background-color: #20CDF0;
-    border-color: #20CDF0;
+    background-color: #00C9B7;
+    border-color: #00C9B7;
 }
 .btn-secondary {
     color: #fff;
-    background-color: #20CDF0;
-    border-color: #20CDF0;
+    background-color: #00C9B7;
+    border-color: #00C9B7;
 }
 .btn-secondary:hover {
     color: #000;
-    background-color: #20CDF0;
-    border-color: #20CDF0;
+    background-color: #00C9B7;
+    border-color: #00C9B7;
 }
 .form-control {
     margin: 10px auto;
@@ -920,7 +920,7 @@ dl, ol, ul {
     margin: 2px;
 }
 .socialIconsFillHeadline path {
-    fill: #20CDF0;
+    fill: #00C9B7;
     padding: 5px;
 }
 .socialIconsFillProfile path {
@@ -933,7 +933,7 @@ dl, ol, ul {
     fill: #0e0e0e;
 }
 .socialIconsFill:hover path {
-    fill: #20CDF0;
+    fill: #00C9B7;
 }
 svg {
     overflow: hidden;
@@ -1060,8 +1060,8 @@ label {
 }
 .btn-outline-success3:hover {
     color: #000;
-    background-color: #20CDF0;
-    border-color: #20CDF0;
+    background-color: #00C9B7;
+    border-color: #00C9B7;
 }
 
 /* SUBMIT SECTION*/
@@ -1108,8 +1108,8 @@ label {
 }
 .btn-outline-success4:hover {
     color: #000;
-    background-color: #20CDF0;
-    border-color: #20CDF0;
+    background-color: #00C9B7;
+    border-color: #00C9B7;
 }
 .submitHeadline {
     text-align: center;
@@ -1155,7 +1155,7 @@ label {
     margin-bottom: 0;
 }
 .websiteLink {
-    color: #20CDF0;
+    color: #00C9B7;
     margin-top: 0;
 }
 .websiteLink:hover {
@@ -1288,7 +1288,7 @@ footer .up-footer .info-widget p {
 }
 footer .up-footer .info-widget p span {
     font-family: 'Montserrat', sans-serif;
-    color: #20CDF0;
+    color: #00C9B7;
 }
 footer .up-footer .info-widget p.first-par {
     margin-bottom: 20px;
@@ -1324,7 +1324,7 @@ footer p.newsletter a {
     margin: 0;
 }
 footer p.newsletter a:hover {
-    color: #20CDF0;
+    color: #00C9B7;
 }
 .nav-link-footer {
     text-transform: none;
