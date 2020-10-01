@@ -820,7 +820,7 @@ dl, ol, ul {
     font-weight: bolder;
     font-style: italic;
     background-color: #02133F;
-    padding: 10px 30px;
+    padding: 10px;
     margin-top: 0px;
     width: 100%;
     display: block;
@@ -1464,7 +1464,7 @@ footer p.newsletter a:hover {
         max-width: 30%;
     }
     .promotedText {
-        font-size: 1rem;
+        font-size: 0.8rem;
         margin-bottom: 1rem 0 3rem;
     }
     .form-control-file {
@@ -1553,7 +1553,7 @@ footer p.newsletter a:hover {
     .img-fluid {
         max-width: 100%;
         height: auto;
-        margin: 40px auto 20px;
+        margin: 40px auto;
         vertical-align: middle;
         text-align: center;
     }
@@ -1563,7 +1563,7 @@ footer p.newsletter a:hover {
         margin: 10px auto;
     }
     .bigboxAd {
-        margin: 20px auto 40px;
+        margin: 0 auto 10px;
     }
     .eNewsText {
         width: 80%;
@@ -1611,6 +1611,9 @@ footer p.newsletter a:hover {
     }
     .billboardAd4 {
         margin: 30px auto 130px;
+    }
+    .bigboxAd {
+        margin: 20px auto 40px;
     }
     .dropdown-menu {
         width: 800px;
