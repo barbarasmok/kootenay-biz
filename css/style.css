@@ -356,7 +356,7 @@ h2 {
 }
 .month {
     font-weight: bolder;
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin-top: 0;
 }
 .row-striped:nth-of-type(odd){
@@ -630,6 +630,18 @@ h2 {
 }
 .headlineNewStyle {
     font-family: 'Merriweather', serif;
+}
+.eventText {
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: none;
+    border-left: solid #20CDF0 4px;
+    font-style: italic;
+    font-weight: bolder;
+    line-height: 1.1;
+    font-size: 1.5rem;
+    padding-left: 10px;
 }
 .text-uppercase {
     width: 50%;
