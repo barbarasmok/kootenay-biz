@@ -1342,11 +1342,6 @@ footer p.newsletter a:hover {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {  
-    .businessbeatImage {
-        vertical-align: middle;
-        border-style: none;
-        margin: 30px auto;
-    }
     .footer-bs .footer-nav, 
     .footer-bs .footer-social, 
     .footer-bs .footer-ns { 
@@ -1365,7 +1360,7 @@ footer p.newsletter a:hover {
         float: right;
     }
     .order-lg-2.mostRead {
-        margin-top: 0;
+        margin-top: 10px;
     }
     .awardImage {
         width: 40%;
@@ -1538,7 +1533,7 @@ footer p.newsletter a:hover {
     }
     h2 {
         font-weight: bolder;
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     p {
         margin-bottom: 0.5rem;
@@ -1561,6 +1556,11 @@ footer p.newsletter a:hover {
         margin: 40px auto 20px;
         vertical-align: middle;
         text-align: center;
+    }
+    .businessbeatImage {
+        vertical-align: middle;
+        border-style: none;
+        margin: 10px auto;
     }
     .bigboxAd {
         margin: 20px auto 40px;
@@ -1592,6 +1592,9 @@ footer p.newsletter a:hover {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+    .order-lg-2.mostRead {
+        margin-top: 0;
+    }
     .bg-dark {
         background-color: #02133F!important;
     }
@@ -1697,6 +1700,9 @@ footer p.newsletter a:hover {
         width: 50%;
         margin: 20px auto;
         text-align: center;
+    }
+    h2 {
+        font-size: 3rem;
     }
 }
 
