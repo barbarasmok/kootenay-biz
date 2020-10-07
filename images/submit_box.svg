@@ -1,43 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="280px" height="280px" viewBox="0 0 280 280" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
     <title>Submit</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <text id="text-1" font-family="Lato-Bold, Lato" font-size="20" font-weight="bold" line-spacing="26" fill="#FFFFFF">
-            <tspan x="34.265" y="62">Pellentesque bibendum </tspan>
-            <tspan x="38.87" y="88">diam nec enim lobortis </tspan>
-            <tspan x="32.755" y="114">lobortis malesuada ante </tspan>
-            <tspan x="57.605" y="140">ultrices accumsan. </tspan>
-        </text>
-        <filter x="-6.8%" y="-10.8%" width="113.5%" height="129.2%" filterUnits="objectBoundingBox" id="filter-2">
-            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-        </filter>
-    </defs>
-    <g id="KB-Contact-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="KB---Contact-page---Desktop" transform="translate(-925.000000, -1066.000000)">
-            <g id="Submit" transform="translate(925.000000, 1066.000000)">
-                <rect id="Rectangle" fill="#FFFFFF" x="20" y="31" width="58" height="58" rx="29"></rect>
-                <rect id="Rectangle" fill="#010D2C" x="0" y="0" width="280" height="280"></rect>
-                <g id="arrow" transform="translate(131.000000, 221.000000)" fill="#00EAFF">
-                    <g id="np_link_1713451_000000">
-                        <polygon id="Path" fill-rule="nonzero" points="22.31904 10.44936 22.31904 23.82552 -9.72022463e-14 23.82552 -9.72022463e-14 1.80552 13.47744 1.80552 13.47744 4.70424 2.94096 4.70424 2.94096 20.92584 19.38096 20.92584 19.38096 10.44936"></polygon>
-                        <path d="M15.1584,0.1742544 L15.1584,3.0740544 L18.94872,3.0740544 L11.23968,10.7821344 C10.95936,11.0624544 10.802808,11.4430704 10.802808,11.8386864 C10.802808,12.2352384 10.960308,12.6158784 11.23968,12.8961744 C11.823744,13.4793024 12.76968,13.4793024 13.353744,12.8961744 L21.061824,5.1871344 L21.061824,8.8190544 L23.999904,8.8190544 L23.999904,0.1742544 L15.1584,0.1742544 Z" id="Path" fill-rule="nonzero"></path>
-                    </g>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Submit">
+            <rect id="Rectangle" fill="#FFFFFF" x="20" y="31" width="58" height="58" rx="29"></rect>
+            <rect id="Rectangle" fill="#02133F" x="0" y="0" width="280" height="280"></rect>
+            <g id="Group" transform="translate(131.000000, 235.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                <g id="np_link_1713451_000000">
+                    <polygon id="Path" points="22.31904 10.44936 22.31904 23.82552 -9.72022463e-14 23.82552 -9.72022463e-14 1.80552 13.47744 1.80552 13.47744 4.70424 2.94096 4.70424 2.94096 20.92584 19.38096 20.92584 19.38096 10.44936"></polygon>
+                    <path d="M15.1584,0.1742544 L15.1584,3.0740544 L18.94872,3.0740544 L11.23968,10.7821344 C10.95936,11.0624544 10.802808,11.4430704 10.802808,11.8386864 C10.802808,12.2352384 10.960308,12.6158784 11.23968,12.8961744 C11.823744,13.4793024 12.76968,13.4793024 13.353744,12.8961744 L21.061824,5.1871344 L21.061824,8.8190544 L23.999904,8.8190544 L23.999904,0.1742544 L15.1584,0.1742544 Z" id="Path"></path>
                 </g>
-                <text id="SUBMIT-A-STORY" font-family="Lato-Black, Lato" font-size="28" font-weight="700" line-spacing="40" fill="#FFFFFF">
-                    <tspan x="25.368" y="204">SUBMIT A STORY</tspan>
-                </text>
-                <g id="Pellentesque-bibendu" fill="#FFFFFF" fill-opacity="1">
-                    <use filter="url(#filter-2)" xlink:href="#text-1"></use>
-                    <use xlink:href="#text-1"></use>
-                </g>
-                <line x1="25" y1="170.25" x2="253.651776" y2="169.75" id="Line" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></line>
-                <line x1="25" y1="234" x2="122" y2="233.5" id="Line-Copy" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></line>
-                <line x1="162.345959" y1="233.5" x2="254" y2="234" id="Line-Copy-2" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></line>
             </g>
+            <text id="SHARE-A-STORY" font-family="Lato-BlackItalic, Lato" font-size="30" font-style="italic" font-weight="700" line-spacing="40" fill="#FFFFFF">
+                <tspan x="34.01" y="221">SHARE A STORY</tspan>
+            </text>
+            <text id="Do-you-have-business" font-family="Lato-Bold, Lato" font-size="36" font-weight="bold" line-spacing="38" fill="#FFFFFF">
+                <tspan x="25" y="66">Do you have </tspan>
+                <tspan x="25" y="104">business news </tspan>
+                <tspan x="25" y="142">to share? </tspan>
+            </text>
+            <line x1="25" y1="184.25" x2="253.651776" y2="183.75" id="Line" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></line>
+            <line x1="25" y1="245" x2="122" y2="244.5" id="Line-Copy" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></line>
+            <line x1="162.345959" y1="244.5" x2="254" y2="245" id="Line-Copy-2" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></line>
         </g>
     </g>
 </svg>
