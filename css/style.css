@@ -842,6 +842,13 @@ dl, ol, ul {
     display: block;
 }
 
+#cta {
+    background: #eceff1;
+    height:150px;
+    margin: 10px auto 40px;
+    padding: 25px;
+}
+
 /* SUBSCRIBE*/
 .newsletter {
     background: #eceff1;
