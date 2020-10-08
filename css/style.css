@@ -215,10 +215,10 @@ hr {
 .btnTopMenu {
     color: #FFF;
     border: none;
-    background-color: #0e0e0e;
+    background-color: #02133F;
 }
 .btnTopMenu:hover {
-    color: #0e0e0e;
+    color: #02133F;
     background-color: #00C9B7;
 }
 .btn-outline-success {
@@ -253,8 +253,8 @@ hr {
 }
 .btn-primary:hover {
     color: #FFF;
-    background-color: #10A5E9;
-    border-color: #10A5E9;
+    background-color: #00C9B7;
+    border-color: #00C9B7;
 }
 .areaMenuText {
     padding: .25rem 1.5rem;
@@ -309,22 +309,23 @@ h2 {
     margin-bottom: 0;
 }
 #sectionCategories {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .jumboSubheadlines, 
 .bobSubheadlines {
-    text-transform: uppercase;
-    font-family: 'Lato';
-    font-style: italic;
-    font-weight: 900;
-    line-height: 1.1;
-    width: 100%;
-    padding: 0 15px;
-    margin-top: 20px;
-    border: none;
-    text-align: center;
-    margin: auto;
-    font-size: 1.1rem; 
+        text-transform: uppercase;
+        font-family: 'Lato';
+        font-style: italic;
+        font-weight: 900;
+        line-height: 1.1;
+        width: 100%;
+        padding: 0;
+        margin-top: 20px;
+        border: none;
+        text-align: left;
+        margin: auto;
+        font-size: 1.1rem;
+        color: white;
 }
 .jumboBOBTitle {
     text-transform: uppercase;
@@ -335,9 +336,10 @@ h2 {
     padding: 20px 0 5px;
     margin: 50px auto 0;
     border: none;
-    text-align: center;
+    text-align: left;
     margin: auto;
     font-size: 3.5rem; 
+    color: #FFF;
 }
 .BOBTitleItalic {
     text-transform: uppercase;
@@ -403,14 +405,17 @@ h2 {
     text-align: center;
 }
 .jumbotron {
-    padding: 50px 50px;
-    background-color: #FCFCFC;
-    border-radius: .3rem;
+    padding: 50px;
+    background-image:url("../images/bobbanner.png");
+    border: none;
     margin: 50px auto;
+    border-radius:0;
+    height: 700px;
+    width: auto;
 }
 .disclaimer {
     margin: 30px auto 80px;
-    width: 95%;
+    width: 99%;
 }
 .rounded {
     border-top: 8px solid #e9ecef;
@@ -421,20 +426,21 @@ h2 {
 .btnBOBNominate {
     color: #FFF;
     border: none;
-    background-color: #EC0000;
+    background-color: #C90040;
     font-family: 'Lato';
     margin: 5px;
     display: block;
     font-weight: 900;
     font-style: italic;
+    padding: 15px 20px;
 }
 .btnBOBNominate:hover {
-    color: #FFF;
-    background-color: #10A5E9;
-    border-color: #10A5E9;
+    color: #02133F;
+    background-color: #FFF;
+    border-color: #FFF;
 }
 .btnBOBVote {
-    color: #0e0e0e;
+    color: #02133F;
     border: none;
     background-color: #F7DD05;
     font-family: 'Lato';
@@ -442,29 +448,31 @@ h2 {
     display: block;
     font-weight: 900;
     font-style: italic;
+    padding: 15px 20px;
 }
 .btnBOBVote:hover {
     color: #FFF;
-    background-color: #10A5E9;
-    border-color: #10A5E9;
+    background-color: #00C9B7;
+    border-color: #00C9B7;
 }
 .btnBOBWinners {
     color: #FFF;
     border: none;
-    background-color: #10A5E9;
+    background-color: #00C9B7;
     font-family: 'Lato';
     margin: 5px;
     display: block;
     font-weight: 900;
     font-style: italic;
+    padding: 15px 20px;
 }
 .btnBOBWinners:hover {
     color: #FFF;
-    background-color: #0e0e0e;
-    border-color: #0e0e0e;
+    background-color: #C90040;
+    border-color: #C90040;
 }
 .btnBOBWinnersYellow {
-    color: #0e0e0e;
+    color: #02133F;
     border: none;
     background-color: #F7DD05;
     font-family: 'Lato';
@@ -472,14 +480,15 @@ h2 {
     display: block;
     font-weight: 900;
     font-style: italic;
+    padding: 15px 20px;
 }
 .btnBOBWinnersYellow:hover {
     color: #FFF;
-    background-color: #0e0e0e;
-    border-color: #0e0e0e;
+    background-color: #02133F;
+    border-color: #02133F;
 }
 .btn-primary {
-    color: #0e0e0e;
+    color: #02133F;
     border: none;
     background-color: #e9ecef;
     font-family: 'Lato';
@@ -490,12 +499,13 @@ h2 {
 .btnCategory {
     color: #FFF;
     border: none;
-    background-color: #0e0e0e;
+    background-color: #00C9B7;
     font-family: 'Lato';
     margin: 5px;
     display: block;
     font-weight: 900;
     font-style: italic;
+    padding: 15px 20px;
 }
 
 .btnCategory {
@@ -507,11 +517,12 @@ h2 {
     font-weight: 900;
     font-size: 1.3rem;
     border: none;
+    padding: 15px 20px;
 }
 .btnCategoryBlue {
     color: #FFF;
     border: none;
-    background-color: #10A5E9;
+    background-color: #00C9B7;
     text-transform: none;
     width: 90%;
     margin: 5px auto;
@@ -520,30 +531,32 @@ h2 {
     font-weight: 900;
     display: block;
     font-size: 1.3rem;
+    padding: 15px 20px;
 }
 .bobCategoryCollapse {
     margin: 10px auto;
+    padding: 15px 20px;
 }
 .btnBOB2019Winners:hover,
 .btnCategory:hover {
-    color: #FFF;
-    background-color: #10A5E9;
-    border-color: #10A5E9;
+    color: #02133F;
+    background-color: #FFF;
+    border-color: #FFF;
 }
 .btnCategoryBlue:hover {
     color: #FFF;
-    background-color: #0e0e0e;
-    border-color: #0e0e0e;
+    background-color: #02133F;
+    border-color: #02133F;
 }
 .jumboBtns {
-    margin: 15px auto;
+    margin: 25px auto 0;
     display: block;
     border: none;
 }
 .jumboBtnsSmall{
     color: #FFF;
     border: none;
-    background-color: #10A5E9;
+    background-color: #00C9B7;
     font-family: 'Lato';
     margin: 5px;
     display: block;
@@ -553,7 +566,7 @@ h2 {
 .jumboBtnsSmall2 {
     color: #FFF;
     border: none;
-    background-color: #EC0000;
+    background-color: #C90040;
     font-family: 'Lato';
     margin: 5px;
     display: block;
@@ -563,11 +576,11 @@ h2 {
 .jumboBtnsSmall:hover,
 .jumboBtnsSmall2:hover,
 .jumboBtnsSmall2Yellow:hover {
-    background-color: #0e0e0e;
+    background-color: #02133F;
     color: #fff;
 }
 .jumboBtnsSmall2Yellow {
-    color: #0e0e0e;
+    color: #02133F;
     border: none;
     background-color: #ffba00;
     font-family: 'Lato';
@@ -953,13 +966,13 @@ dl, ol, ul {
     padding: 5px;
 }
 .socialIconsFillProfile path {
-    fill: #10A5E9;
+    fill: #00C9B7;
 }
 .socialIconsFillProfile:hover path {
-    fill: #0e0e0e;
+    fill: #02133F;
 }
 .socialIconsFillHeadline:hover path {
-    fill: #0e0e0e;
+    fill: #02133F;
 }
 .socialIconsFill:hover path {
     fill: #00C9B7;
@@ -1412,12 +1425,7 @@ footer a {
         text-transform: uppercase;
         font-family: 'Libre Baskerville', serif;
         font-weight: 700;
-        line-height: 1.1;
-        width: 60%;
-        padding: 20px 0 5px;
-        margin: 50px auto 0;
-        border: none;
-        text-align: center;
+        line-height: 0.8;
         margin: auto;
         font-size: 6.5rem;
     }
@@ -1434,7 +1442,7 @@ footer a {
         text-align: center;
         margin: auto;
         font-size: 6.5rem; 
-        color: #10A5E9;
+        color: #00C9B7;
     }
     .BOBbusinessName {
         margin-top:15px;
@@ -1455,8 +1463,8 @@ footer a {
         width: 80%;
     }
     .jumbotron {
-        padding: 100px 50px;
-        margin: 20px auto;
+        padding: 80px;
+        margin: auto;
     }
     .md-form {
         width: 100%;
@@ -1471,7 +1479,6 @@ footer a {
         text-align: center;
     }
     .jumboSubheadlines {
-        width: 50%;
         font-size: 1.5rem;
     }
     .btnBOBNominate,
@@ -1632,10 +1639,7 @@ footer a {
     .bg-dark {
         background-color: #02133F!important;
     }
-    .disclaimer {
-        margin: 30px auto 80px;
-        width: 65%;
-    }
+
     .img-fluid {
         max-width: 100%;
         height: auto;
