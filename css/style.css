@@ -849,33 +849,35 @@ dl, ol, ul {
 }
 
 /* SUBSCRIBE*/
-#newsletter {
-    background: #eceff1;
-    padding: 30px;
-    text-align: center;
-} 
-
-#newsletter button {
-    padding: 15px 20px;
-    margin: 10px;
+#newsletter a {
+    margin: 10px auto;
 }
-
+.btnSubmit {
+    background-color: #C90040;
+    border: none;
+    padding: 15px;
+    color: white;
+    display: block;
+    width: 100%;
+}
 .btnSignUp {
     background-color: #00C9B7;
     border: none;
+    padding: 15px 20px;
+    color:white;
+    display: block;
+    width: 100%;
 }
-
+#newsletter {
+    background: #F8F8F8;
+    padding: 30px;
+    text-align: center;
+} 
 .btnSignUp:hover {
     background-color: #02133F;
     border: none;
     color: white;
 }
-
-.btnSubmit {
-    background-color: #C90040;
-    border: none;
-}
-
 .btnSubmit:hover {
     background-color: #02133F;
     border: none;
@@ -1366,6 +1368,14 @@ footer a {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {  
+    #newsletter a {
+        margin: 10px;
+    }
+    .btnSubmit,
+    .btnSignUp {
+        display: inline-block;
+        width: auto;
+    }
     .footer-bs .footer-nav, 
     .footer-bs .footer-social, 
     .footer-bs .footer-ns { 
