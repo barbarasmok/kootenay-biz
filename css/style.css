@@ -849,18 +849,17 @@ dl, ol, ul {
 }
 
 /* SUBSCRIBE*/
-.newsletter {
+#newsletter {
     background: #eceff1;
-    margin-bottom: 50px;
+    padding: 30px;
+    text-align: center;
+} 
+
+#newsletter button {
     padding: 10px;
-}   
-.newsletter .content {
-    max-width: 750px;
-    margin: 0 auto;
-    padding: 20px;
-    position: relative;
-    z-index: 2;
+    margin: 10px;
 }
+
 .btn-outline-success2 {
     color: #FFF;
     border-color: #000;
@@ -979,13 +978,13 @@ footer.page-footer {
 }
 footer.page-footer .footer-copyright {
     overflow: hidden;
-    color: black;
+    color: #02133F;
     background-color: #e9ecef;
     font-weight: 900;
 }
 .mb-0, .my-0 {
     margin-bottom: 0!important;
-    color: black;
+    color: #02133F;
     text-transform: none;
     font-weight: 500;
     font-size: 1rem;
@@ -1113,7 +1112,7 @@ label {
     margin: auto;
 }
 .btn-outline-success4:hover {
-    color: #000;
+    color: #02133F;
     background-color: #00C9B7;
     border-color: #00C9B7;
 }
@@ -1191,14 +1190,14 @@ h4 {
 /* =  Footer
 /*-------------------------------------------------*/
 footer {
-    background: #000;
+    background: #02133F;
 }
 footer .up-footer {
     padding: 40px 0;
-    background-color: #000;
+    background-color: #02133F;
 }
 footer .up-footer h2 {
-    color: #222222;
+    color: #02133F;
     font-size: 17px;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
@@ -1300,37 +1299,18 @@ footer .up-footer .info-widget p.first-par {
     margin-bottom: 20px;
 }
 footer p.copyright {
-    padding: 10px 0;
-    background: #e9ecef;
+    padding: 15px;
+    background: #000;
     border-top: none;
-    text-transform: uppercase;
+    text-transform: none;
     font-size: 13px;
     font-family: 'Lato', sans-serif;
-    color: #000;
+    color: #FFF;
     text-align: center;
     margin: 0;
 }
-footer p.newsletter {
-    padding: 10px 0;
-    background: #02133F;
-    border-top: none;
-    text-transform: uppercase;
-    font-size: 13px;
-    font-family: 'Lato', sans-serif;
-    color: #fff;
-    text-align: center;
-    margin: 0;
-}
-footer p.newsletter a {
-    text-transform: uppercase;
-    font-size: 18px;
-    font-family: 'Lato', sans-serif;
-    color: #fff;
-    text-align: center;
-    margin: 0;
-}
-footer p.newsletter a:hover {
-    color: #00C9B7;
+footer a {
+    color: white;
 }
 .nav-link-footer {
     text-transform: none;
@@ -1389,9 +1369,6 @@ footer p.newsletter a:hover {
     }
     .headerSearch input[type='text'] {
         display: block;
-    }
-    .newsletter {
-        margin-bottom: 50px;
     }
     .sectionDivider {
         height: 0;
