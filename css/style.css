@@ -198,7 +198,9 @@ a:hover {
 /*END NAVBAR2*/
 
 
-
+.breadcrumb-item {
+    text-align:center;
+}
 .readMore {
     color: #00C9B7;
     font-weight: bold;
