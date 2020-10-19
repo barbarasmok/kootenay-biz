@@ -841,6 +841,7 @@ dl, ol, ul {
     background-color: #C90040;
     padding: 5px 15px;
     margin-top: 0;
+    font-size:0.8rem;
 }
 .sponsorBusinessHeadlines2 {
     text-transform: uppercase;
@@ -851,6 +852,7 @@ dl, ol, ul {
     margin-top: 0;
     display: block;
     font-family: 'Merriweather', serif;
+    font-size:0.8rem;
 }
 .sponsorBusinessMainHeadlines {
     text-transform: uppercase;
