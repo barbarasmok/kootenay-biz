@@ -422,10 +422,17 @@ h2 {
     height: 600px;
     width: auto;
 }
-
 .voteJumbotron {
     padding: 40px 20px;
     background-image:url("../images/bobvote_banner.png");
+    border: none;
+    border-radius:0;
+    height: 600px;
+    width: auto;
+}
+.winnerJumbotron {
+    padding: 40px 20px;
+    background-image:url("../images/bobwinner_banner.svg");
     border: none;
     border-radius:0;
     height: 600px;
@@ -1473,7 +1480,8 @@ footer a {
         text-align: left;
     }
     .jumbotron,
-    .voteJumbotron {
+    .voteJumbotron,
+    .winnerJumbotron {
         padding: 50px;
         margin: auto;
         height: 700px;
@@ -1804,7 +1812,8 @@ footer a {
         text-align: left;
     }
     .jumbotron,
-    .voteJumbotron {
+    .voteJumbotron,
+    .winnerJumbotron {
         padding: 100px 80px;
     }
 }
