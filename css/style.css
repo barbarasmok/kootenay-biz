@@ -422,6 +422,15 @@ h2 {
     height: 600px;
     width: auto;
 }
+
+.voteJumbotron {
+    padding: 40px 20px;
+    background-image:url("../images/bobvote_banner.png");
+    border: none;
+    border-radius:0;
+    height: 600px;
+    width: auto;
+}
 .disclaimer {
     margin: 30px auto 0;
     width: 100%;
@@ -600,7 +609,7 @@ h2 {
 .jumboBtnsSmall2Yellow {
     color: #02133F;
     border: none;
-    background-color: #ffba00;
+    background-color: #F7DD05;
     font-family: 'Lato';
     margin: 5px;
     display: block;
@@ -1463,7 +1472,8 @@ footer a {
         width: 80%;
         text-align: left;
     }
-    .jumbotron {
+    .jumbotron,
+    .voteJumbotron {
         padding: 50px;
         margin: auto;
         height: 700px;
@@ -1793,7 +1803,8 @@ footer a {
         margin: 30px 0;
         text-align: left;
     }
-    .jumbotron {
+    .jumbotron,
+    .voteJumbotron {
         padding: 100px 80px;
     }
 }
