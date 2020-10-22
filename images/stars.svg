@@ -1,15 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="116px" height="53px" viewBox="0 0 116 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Group 4</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="KB-BOB---Nominate---Specific-Category" transform="translate(-662.000000, -1493.000000)" fill="#10A5E9">
-            <g id="Category" transform="translate(232.000000, 1493.000000)">
-                <g id="Group-4" transform="translate(430.000000, 0.000000)">
-                    <polygon id="Star" points="17 44.5 7.00765071 49.7532889 8.91601961 38.6266445 0.832039223 30.7467111 12.0038254 29.1233555 17 19 21.9961746 29.1233555 33.1679608 30.7467111 25.0839804 38.6266445 26.9923493 49.7532889"></polygon>
-                    <polygon id="Star" points="99 44.5 89.0076507 49.7532889 90.9160196 38.6266445 82.8320392 30.7467111 94.0038254 29.1233555 99 19 103.996175 29.1233555 115.167961 30.7467111 107.08398 38.6266445 108.992349 49.7532889"></polygon>
-                    <polygon id="Star" points="59 33 46.0687244 39.7983739 48.5383783 25.3991869 38.0767566 15.2016261 52.5343622 13.1008131 59 0 65.4656378 13.1008131 79.9232434 15.2016261 69.4616217 25.3991869 71.9312756 39.7983739"></polygon>
-                </g>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 116 53" style="enable-background:new 0 0 116 53;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#00C9B7;}
+</style>
+<g id="Page-1">
+	<g>
+		<g id="KB-BOB---Nominate---Specific-Category_8_" transform="translate(-662.000000, -1493.000000)">
+			<g id="Category_8_" transform="translate(232.000000, 1493.000000)">
+				<g id="Group-4_8_" transform="translate(430.000000, 0.000000)">
+					<polygon id="Star_26_" class="st0" points="17,44.5 7,49.8 8.9,38.6 0.8,30.7 12,29.1 17,19 22,29.1 33.2,30.7 25.1,38.6 
+						27,49.8 					"/>
+					<polygon id="Star_25_" class="st0" points="99,44.5 89,49.8 90.9,38.6 82.8,30.7 94,29.1 99,19 104,29.1 115.2,30.7 
+						107.1,38.6 109,49.8 					"/>
+					<polygon id="Star_24_" class="st0" points="59,33 46.1,39.8 48.5,25.4 38.1,15.2 52.5,13.1 59,0 65.5,13.1 79.9,15.2 
+						69.5,25.4 71.9,39.8 					"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>
