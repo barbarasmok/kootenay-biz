@@ -14,9 +14,10 @@
 body {
     font-family: 'Lato', 'sans-serif';
     min-height: 100vh;
+    color: #02133F;
 }
 a {
-    color: #000;
+    color: #02133F;
     text-decoration: none;
 }
 a:hover {
@@ -24,6 +25,10 @@ a:hover {
     text-decoration: none;
 }
 
+p,
+.card-text {
+    color: #02133F;
+}
 /* NAVBAR*/
 
 /*NAVBAR2*/
@@ -141,7 +146,7 @@ a:hover {
     font-size: 0.8rem;
 }
 .bg-dark2 {
-    background-color:#000;
+    background-color:#02133F;
 }
 .navbar-dark .navbar-toggler-icon {
     background-image: url("../images/togglebars.svg");
@@ -163,7 +168,7 @@ a:hover {
     box-shadow: 0 2px 8px rgba(0,0,0,.05);
 }
 .navbar .dropdown-menu a {
-    color: #000;
+    color: #02133F;
     padding: 8px 20px;
     line-height: normal;
     font-size: 15px;
@@ -180,14 +185,14 @@ a:hover {
     position: absolute;
     top: 100%;
     left: 0;
-    z-index: 1000;
+    z-index: 102133F;
     display: none;
     float: left;
     min-width: 10rem;
     padding: .5rem 0;
     margin: .125rem 0 0;
     font-size: 1rem;
-    color: #212529;
+    color: #02133F;
     text-align: left;
     list-style: none;
     background-color: #fff;
@@ -231,7 +236,7 @@ hr {
 }
 
 .btn-outline-success:hover {
-    color: #000;
+    color: #00;
     border-color: #FFF;
     background-color: #FFF;
 }
@@ -249,7 +254,7 @@ hr {
 }
 
 .btn-primary {
-    color: #000;
+    color: #02133F;
     border-color: #00C9B7;
     background-color: #00C9B7;
 }
@@ -290,6 +295,7 @@ h3 {
     line-height: 1.1;
     font-size: 1.5rem;
     MARGIN-BOTTOM: 30PX;
+    color: #02133F;
 }
 h2 {
     font-weight: bolder;
@@ -297,6 +303,7 @@ h2 {
     margin-top:15px;
     line-height: 1.1;
     font-weight: bolder;
+    color: #02133F;
 }
 .categoryHeadlines {
     width: 50%;
@@ -637,15 +644,15 @@ h2 {
 }
 
 .categorySubheadlines:hover {
-    color: #000;
+    color: #02133F;
 }
 
 .categorySubheadlines2:hover {
-    color: #000;
+    color: #02133F;
 }
 
 .sidebarSubheadlines:hover {
-    color: #000;
+    color: #02133F;
 }
 
 .categorySubheadlines2 {
@@ -843,6 +850,7 @@ dl, ol, ul {
 .desText {
     font-size: 1.2rem;
     line-height: 1.4;
+    color:#02133F;
 }
 .desText2 {
     margin-top: 0;
@@ -936,12 +944,12 @@ dl, ol, ul {
 
 .btn-outline-success2 {
     color: #FFF;
-    border-color: #000;
-    background-color: #000;
+    border-color: #02133F;
+    background-color: #02133F;
     margin: 10px;
 }
 .btn-outline-success2:hover {
-    color: #000;
+    color: #02133F;
     background-color: #00C9B7;
     border-color: #00C9B7;
 }
@@ -951,7 +959,7 @@ dl, ol, ul {
     border-color: #00C9B7;
 }
 .btn-secondary:hover {
-    color: #000;
+    color: #02133F;
     background-color: #00C9B7;
     border-color: #00C9B7;
 }
@@ -1138,7 +1146,7 @@ label {
     padding: 10px;
 }
 .btn-outline-success3:hover {
-    color: #000;
+    color: #02133F;
     background-color: #00C9B7;
     border-color: #00C9B7;
 }
@@ -1238,7 +1246,7 @@ label {
     margin-top: 0;
 }
 .websiteLink:hover {
-    color: #000;
+    color: #02133F;
 }
 
 /* STOTY DETAILS*/
@@ -1374,7 +1382,7 @@ footer .up-footer .info-widget p.first-par {
 }
 footer p.copyright {
     padding: 15px;
-    background: #000;
+    background: #02133F;
     border-top: none;
     text-transform: none;
     font-size: 13px;
