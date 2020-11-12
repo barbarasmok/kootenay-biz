@@ -899,7 +899,7 @@ dl, ol, ul {
 }
 
 #cta {
-    background: #F8F8F8;
+    background: #f9f9f9;
     height:150px;
     margin: 10px auto 50px;
     padding: 25px;
@@ -915,18 +915,20 @@ dl, ol, ul {
     padding: 15px;
     color: white;
     display: block;
+    font-weight: 900;
     width: 100%;
 }
 .btnSignUp {
-    background-color: #00C9B7;
+    background-color: #FFF;
     border: none;
     padding: 15px 20px;
-    color:white;
+    color: #02133F;
     display: block;
     width: 100%;
+    font-weight: 900;
 }
 #newsletter {
-    background: #F8F8F8;
+    background: #00C9B7;
     padding: 30px;
     text-align: center;
 } 
@@ -1060,7 +1062,7 @@ footer.page-footer {
 footer.page-footer .footer-copyright {
     overflow: hidden;
     color: #02133F;
-    background-color: #e9ecef;
+    background-color: #FFF;
     font-weight: 900;
 }
 .mb-0, .my-0 {
@@ -1079,7 +1081,7 @@ footer.page-footer .footer-copyright {
 /* CONTACT SECTION*/
 .contact {
     padding: 60px 0;
-    background: #F8F8F8;
+    background: #f9f9f9;
     margin-bottom: 50px;
 }
 .contactHeading {
@@ -1271,11 +1273,11 @@ h4 {
 /* =  Footer
 /*-------------------------------------------------*/
 footer {
-    background: #02133F;
+    background: #f9f9f9;
 }
 footer .up-footer {
     padding: 40px 0;
-    background-color: #02133F;
+    background-color: #f9f9f9;
 }
 footer .up-footer h2 {
     color: #02133F;
@@ -1289,7 +1291,7 @@ footer .up-footer h2 {
     color: #ffffff;
 }
 footer .up-footer p {
-    color: #ffffff;
+    color: #02133F;
 }
 footer .up-footer img {
     margin-top: 20px;
@@ -1311,8 +1313,8 @@ footer .up-footer ul.tag-list li a {
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     padding: 8px 18px;
-    color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(255, 255, 255, 0.8);
+    color: #02133F(255, 255, 255, 0.8);
+    border: none;
     font-size: 12px;
     font-family: 'Lato', sans-serif;
     -webkit-border-radius: 3px;
@@ -1341,7 +1343,7 @@ footer .up-footer ul.navigation li a {
     -o-transition: all 0.2s ease-in-out;
     font-size: 12px;
     font-family: 'Montserrat', sans-serif;
-    color: rgba(255, 255, 255, 0.9);
+    color: #02133F;
 }
 footer .up-footer ul.navigation li a:hover {
     color: #ffba00;
@@ -1381,23 +1383,23 @@ footer .up-footer .info-widget p.first-par {
 }
 footer p.copyright {
     padding: 15px;
-    background: #02133F;
+    background: #FFF;
     border-top: none;
     text-transform: none;
     font-size: 13px;
     font-family: 'Lato', sans-serif;
-    color: #FFF;
+    color: #02133F;
     text-align: center;
     margin: 0;
 }
 footer a {
-    color: white;
+    color: #02133F;
 }
 .nav-link-footer {
     text-transform: none;
     text-align: left;
     font-style: none;
-    color: white;
+    color: #02133F;
     font-size: 0.8rem;
 }
 
@@ -1602,7 +1604,7 @@ footer a {
     } 
     .contact {
         padding: 60px 0;
-        background: #F8F8F8;
+        background: #f9f9f9;
         margin-bottom: 80px;
     }
     .billboardAd {
