@@ -858,14 +858,18 @@ dl, ol, ul {
 /* SECTION 4*/
 .sponsorBusinessHeadlines {
     text-transform: uppercase;
-    color: #FFF;
+    color: #C90040;
     font-weight: 900;
     font-family: 'Merriweather', serif;
-    background-color: #C90040;
-    padding: 5px 15px;
-    margin-top: 0;
-    font-size:0.8rem;
+    margin-top: 15px;
+    font-size:1rem;
 }
+
+.readMoreRed {
+    color:#C90040;
+    font-weight: bold;
+}
+
 .sponsorBusinessHeadlines2 {
     text-transform: uppercase;
     color: #FFF;
