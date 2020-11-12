@@ -1275,6 +1275,19 @@ h4 {
 footer {
     background: #f9f9f9;
 }
+.shareLink:hover {
+    color: #02133F;
+}
+.copyrightLink {
+    color: #02133F;
+}
+.copyrightLink:hover {
+    color: #00C9B7;
+}
+footer a {
+    color: #FFF;
+    font-size: 1.5rem;
+}
 footer .up-footer {
     padding: 40px 0;
     background-color: #f9f9f9;
@@ -1313,7 +1326,7 @@ footer .up-footer ul.tag-list li a {
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     padding: 8px 18px;
-    color: #02133F(255, 255, 255, 0.8);
+    color: #FFF;
     border: none;
     font-size: 12px;
     font-family: 'Lato', sans-serif;
@@ -1391,9 +1404,6 @@ footer p.copyright {
     color: #02133F;
     text-align: center;
     margin: 0;
-}
-footer a {
-    color: #02133F;
 }
 .nav-link-footer {
     text-transform: none;
