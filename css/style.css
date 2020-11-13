@@ -1079,7 +1079,7 @@ footer.page-footer .footer-copyright {
     text-align: right;
 }
 .footerLogo {
-    width: 80%;
+    width: 60%;
 }
 
 /* CONTACT SECTION*/
@@ -1452,6 +1452,10 @@ footer p.copyright {
 @media (min-width: 768px) {  
     .form-contact-mobile {
         display:none;
+    }
+
+    .footerLogo {
+        width: 100%;
     }
 
     .form-contact-tablet {
