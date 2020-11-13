@@ -2,9 +2,9 @@
 <svg width="300px" height="600px" viewBox="0 0 300 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>Sidekick</title>
     <g id="Sidekick" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="Rectangle" fill="#20CDF0" x="-7" y="-3" width="320" height="615"></rect>
-        <text id="Subhead" font-family="Lato-Heavy, Lato" font-size="22" font-weight="600" line-spacing="29" fill="#303030">
-            <tspan x="40.2525" y="213">Sidekick Ad (300x600)</tspan>
+        <rect id="Rectangle" fill="#00C9B7" x="-9" y="-4" width="317" height="614"></rect>
+        <text id="Sidekick-300x600" font-family="Lato-Black, Lato" font-size="18" font-weight="700" line-spacing="22" fill="#FFFFFF">
+            <tspan x="76.42" y="253">Sidekick 300x600</tspan>
         </text>
     </g>
 </svg>
