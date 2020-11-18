@@ -1280,6 +1280,7 @@ h4 {
 }
 .storyText {
     width: 95%;
+    margin-bottom: 15px;
 }
 .badge-secondary {
     color: #fff;
