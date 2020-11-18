@@ -1435,6 +1435,22 @@ footer p.copyright {
     display: none;
 }
 
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #02133F;
+    border-color: #02133F;
+}
+
+.page-link:hover {
+    z-index: 2;
+    color: #02133F;
+    text-decoration: none;
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+}
+
 /* /////////////////////////////////////////////////////
 /////////////// MEDIA QUERIES ////////////////////////*/
 
