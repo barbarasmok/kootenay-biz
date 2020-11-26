@@ -747,6 +747,10 @@ h2 {
 .sidebarText {
     font-size: 0.8rem;
 }
+
+.sidebarTextList {
+    font-size:1rem;
+}
 .sidebarHeadline {
     font-size: 1.2rem; 
     margin-top: 0;
@@ -830,7 +834,7 @@ p {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     min-height: 1px;
-    padding: 1.23rem 0;
+    padding: 0.23rem 0;
 }
 dl, ol, ul {
     margin-top: 0;
@@ -1680,6 +1684,9 @@ footer p.copyright {
     .sidebarText {
         font-size: 1rem;
     }
+    .sidebarTextList {
+        font-size: 0.85rem;
+    }
     .sidebarHeadline {
         margin-top: 15px;
     }
@@ -1837,6 +1844,9 @@ footer p.copyright {
     .sidebarText {
         font-size: 0.8rem;
         line-height: 1.4;
+    }
+    .sidebarTextList {
+        font-size: 1rem;
     }
     .card-body {
         padding: 0.5rem 0;
