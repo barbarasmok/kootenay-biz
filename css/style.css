@@ -466,6 +466,15 @@ h2 {
     width: auto;
 }
 
+.jumbotronSHOPLOCAL {
+    padding: 40px 20px;
+    background-image:url("../images/shop-local-banner.svg");
+    border: none;
+    border-radius:0;
+    height: 600px;
+    width: auto; 
+}
+
 .voteJumbotron {
     padding: 40px 20px;
     background-image:url("../images/bobvote_banner.png");
@@ -556,10 +565,29 @@ h2 {
     font-style: italic;
     padding: 15px 20px;
 }
-.btnBOBWinnersYellow:hover {
+
+.btnSHOPLOCAL {
+    color: #FFF;
+    border: none;
+    background-color: #FD6E02;
+    font-family: 'Lato';
+    margin: 5px;
+    display: block;
+    font-weight: 900;
+    font-style: italic;
+    padding: 15px 20px;
+}
+
+.btnBOBWinnersYellow:hover{
     color: #FFF;
     background-color: #02133F;
     border-color: #02133F;
+}
+
+.btnSHOPLOCAL:hover {
+    color: #02133F;
+    background-color: #FFF;
+    border-color: #FFF;
 }
 .btn-primary {
     color: #02133F;
@@ -1604,7 +1632,8 @@ footer p.copyright {
     .jumbotron,
     .voteJumbotron,
     .winnerJumbotron,
-    .jumbotronTOP100 {
+    .jumbotronTOP100,
+    .jumbotronSHOPLOCAL {
         padding: 50px;
         margin: auto;
         height: 600px;
@@ -1629,7 +1658,8 @@ footer p.copyright {
     .btnBOBVote,
     .btn-primary,
     .btnBOBWinners,
-    .btnBOBWinnersYellow {
+    .btnBOBWinnersYellow,
+    .btnSHOPLOCAL {
         display: inline-block;
     }
     .btnBOB2019Winners {
@@ -1971,7 +2001,8 @@ footer p.copyright {
         padding: 50px;
         height: 600px;
     }
-    .jumbotronTOP100 {
+    .jumbotronTOP100,
+    .jumbotronSHOPLOCAL {
         padding: 50px;
         height: 550px;
     }
