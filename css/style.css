@@ -811,6 +811,21 @@ p {
 .sectionDividerMargin {
     margin: 10px auto 100px;
 }
+.cardDivider {
+    height: 0;
+    width: 50%;
+    margin: 0 auto 1.5rem;
+    overflow: hidden;
+    border-top: 6px solid #FFC021;
+    text-align: center;
+}
+.card > hr {
+    margin-right: 0;
+    margin-left: 0;
+    text-align: center;
+    margin: 0.5rem auto 1rem;
+}
+
 .socialDivider {
     height: 0;
     margin: 2rem 0 2rem;
