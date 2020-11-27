@@ -450,11 +450,19 @@ h2 {
 }
 .jumbotron {
     padding: 40px 20px;
-    background-image:url("../images/bobbanner.png");
+    background-image:url("../images/bobbanner.svg");
     border: none;
     border-radius:0;
     height: 600px;
     width: auto;
+}
+.jumbotronNominate {
+    padding: 40px 20px;
+    background-image:url("../images/bobbanner.png");
+    border: none;
+    border-radius:0;
+    height: 600px;
+    width: auto; 
 }
 
 .jumbotronTOP100 {
@@ -1633,7 +1641,8 @@ footer p.copyright {
     .voteJumbotron,
     .winnerJumbotron,
     .jumbotronTOP100,
-    .jumbotronSHOPLOCAL {
+    .jumbotronSHOPLOCAL,
+    .jumbotronNominate {
         padding: 50px;
         margin: auto;
         height: 600px;
@@ -1997,7 +2006,8 @@ footer p.copyright {
         padding: 100px 80px;
     }
 
-    .jumbotron {
+    .jumbotron,
+    .jumbotronNominate  {
         padding: 50px;
         height: 600px;
     }
