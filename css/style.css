@@ -1607,7 +1607,7 @@ footer p.copyright {
     .jumbotronTOP100 {
         padding: 50px;
         margin: auto;
-        height: 700px;
+        height: 600px;
     }
     .md-form {
         width: 100%;
@@ -1961,10 +1961,15 @@ footer p.copyright {
         margin: 30px 0;
         text-align: left;
     }
-    .jumbotron,
+    
     .voteJumbotron,
     .winnerJumbotron{
         padding: 100px 80px;
+    }
+
+    .jumbotron {
+        padding: 50px;
+        height: 600px;
     }
     .jumbotronTOP100 {
         padding: 50px;
