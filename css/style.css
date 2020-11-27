@@ -362,6 +362,21 @@ h2 {
     font-size: 3rem;
     color: #FFF;
 }
+
+.jumboTOP100Title {
+    text-transform: uppercase;
+    font-family: 'Lato', serif;
+    font-weight: 700;
+    line-height: 1.1;
+    width: 100%;
+    padding: 20px 0 5px;
+    margin: 40px auto 0;
+    border: none;
+    text-align: center;
+    margin: auto;
+    font-size: 2.5rem;
+    color: #FFF;
+}
 .ctaHeadline {
     color: white;
     font-size: 1rem;
@@ -441,6 +456,16 @@ h2 {
     height: 600px;
     width: auto;
 }
+
+.jumbotronTOP100 {
+    padding: 40px 20px;
+    background-image:url("../images/topp-100-banner.svg");
+    border: none;
+    border-radius:0;
+    height: 600px;
+    width: auto;
+}
+
 .voteJumbotron {
     padding: 40px 20px;
     background-image:url("../images/bobvote_banner.png");
@@ -523,7 +548,7 @@ h2 {
 .btnBOBWinnersYellow {
     color: #02133F;
     border: none;
-    background-color: #F7DD05;
+    background-color: #FFC021;
     font-family: 'Lato';
     margin: 5px;
     display: block;
@@ -548,7 +573,7 @@ h2 {
 .btnCategory {
     color: #FFF;
     border: none;
-    background-color: #77787B;
+    background-color: #00C9B7;
     font-family: 'Lato';
     margin: 5px;
     display: block;
@@ -1563,7 +1588,8 @@ footer p.copyright {
     }
     .jumbotron,
     .voteJumbotron,
-    .winnerJumbotron {
+    .winnerJumbotron,
+    .jumbotronTOP100 {
         padding: 50px;
         margin: auto;
         height: 700px;
@@ -1746,7 +1772,8 @@ footer p.copyright {
         text-align: center;
         margin: 1rem auto 0;
     }
-    .jumboBOBTitle {
+    .jumboBOBTitle,
+    .jumboTOP100Title {
         font-size: 6.5rem; 
         text-align: center;
         line-height: 1;
@@ -1902,6 +1929,15 @@ footer p.copyright {
         text-align: left;
         color: #FFF;
     }
+
+    .jumboTOP100Title {
+        line-height: 1;
+        margin: 0 2px;
+        font-size: 4rem; 
+        text-align: left;
+        width: 80%;
+    }
+
     .jumboSubheadlines {
         font-size: 1.5rem;
         text-align: left;
@@ -1912,8 +1948,12 @@ footer p.copyright {
     }
     .jumbotron,
     .voteJumbotron,
-    .winnerJumbotron {
+    .winnerJumbotron{
         padding: 100px 80px;
+    }
+    .jumbotronTOP100 {
+        padding: 50px;
+        height: 550px;
     }
 }
 
