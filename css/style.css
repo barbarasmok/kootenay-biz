@@ -398,7 +398,7 @@ h2 {
     text-align: center;
     margin: auto;
     font-size: 3.5rem; 
-    color: #77787B;
+    color: #FFF;
 }
 .month {
     font-weight: bolder;
@@ -573,7 +573,7 @@ h2 {
 .btnCategory {
     color: #FFF;
     border: none;
-    background-color: #00C9B7;
+    background-color: #10A5E9;
     font-family: 'Lato';
     margin: 5px;
     display: block;
@@ -1806,7 +1806,7 @@ footer p.copyright {
         text-align: center;
         margin: auto;
         font-size: 6.5rem; 
-        color: #77787B;
+        color: #FFF;
     }
     #sectionGrey {
         background-color: #f9f9f9;
