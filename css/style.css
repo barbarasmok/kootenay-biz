@@ -1535,6 +1535,10 @@ footer p.copyright {
 .hiddenRow {
     padding: 0 !important;
 }
+.accordion-toggle p {
+    margin:auto;
+    text-align: center;
+}
 /* /////////////////////////////////////////////////////
 /////////////// MEDIA QUERIES ////////////////////////*/
 
