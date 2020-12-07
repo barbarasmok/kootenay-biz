@@ -1175,7 +1175,10 @@ footer.page-footer .footer-copyright {
 .footerLogo {
     width: 60%;
 }
-
+.footerLogo2 {
+    width: 70%;
+    margin: 0 auto; 
+}
 /* CONTACT SECTION*/
 .contact {
     padding: 60px 0;
@@ -1578,6 +1581,10 @@ footer p.copyright {
         width: 100%;
     }
 
+    .footerLogo2 {
+        width:80%; 
+        margin: 10px 0 10px 50px; 
+    }
     .form-contact-tablet {
         display: block;
     }
@@ -1874,6 +1881,10 @@ footer p.copyright {
     .order-lg-2.mostRead {
         margin-top: 0;
     }
+    .footerLogo2 {
+        width:70%; 
+        margin: 10px 0 10px 80px; 
+    }
     .bg-dark {
         background-color: #f8f9fa!important;
     }
@@ -2057,6 +2068,10 @@ footer p.copyright {
     }
     .navbar-brand img {
         width: 80%;
+    }
+    .footerLogo2 {
+        width:70%; 
+        margin: 10px 0 10px 120px; 
     }
 }
 
