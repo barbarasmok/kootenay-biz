@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="250px" viewBox="0 0 300 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>BigBox</title>
+    <g id="BigBox" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#00C9B7" x="-8" y="-3" width="313" height="255"></rect>
+        <text id="Bigbox-Ad-300x250" font-family="Lato-Heavy, Lato" font-size="22" font-weight="600" letter-spacing="-0.513333563" fill="#FFFFFF">
+            <tspan x="56.8543353" y="144">Bigbox Ad 300x250</tspan>
+        </text>
+    </g>
+</svg>
