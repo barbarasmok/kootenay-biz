@@ -81,6 +81,12 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 	word-wrap: break-word;
 }
 
+.sectionDivider {
+	height: 0;
+	margin: 0.5rem 0;
+	overflow: hidden;
+	border-top: 2px solid #e9ecef;
+}
 /* ========================================================================== */
 /* ========================================================================== */
 							/* [ + Plugins ] */
@@ -1835,7 +1841,7 @@ div.type-post .entry-content {
 	padding-bottom: 15px;
 }
 .blog-paralle .type-post .entry-content::before {
-	background-color: #ebebeb;
+	background-color: none;
 	content: "";
 	height: 1px;
 	position: absolute;
