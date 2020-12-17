@@ -812,6 +812,73 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 	opacity: 1;
 }
 
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    padding: .5rem .75rem;
+    font-size: 0.9rem;
+    line-height: 1.25;
+    border-radius: 0;
+	transition: all .15s ease-in-out;
+	background-color: #464646;
+	color: #FFF;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.btn a {
+	color:#FFF;
+}
+
+.widget .btn {
+    font-family: "Montserrat",sans-serif;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 14px;
+    line-height: 1.7;
+    word-wrap: break-word;
+    text-transform: uppercase;
+}
+
+.widget .btnWhite {
+	font-family: "Montserrat",sans-serif;
+    text-decoration: none;
+    color: #464646;
+    font-size: 14px;
+    line-height: 1.7;
+    word-wrap: break-word;
+	text-transform: uppercase;
+	background-color: #FFF;
+	font-weight: 500;
+}
+
+.btn:hover {
+	background-color: transparent;
+	color: #464646;
+	box-shadow: inset 0px 0px 2px 0px #464646;
+	-webkit-box-shadow: inset 0px 0px 2px 0px #464646;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.widget .btnWhite:hover {
+	background-color: transparent;
+	color: #FFF;
+	box-shadow: inset 0px 0px 2px 0px #FFF;
+	-webkit-box-shadow: inset 0px 0px 2px 0px #FFF;
+	font-family: 'Montserrat', sans-serif;
+}
+
 /* - Footer Dark */
 .footer-dark {
 	background-color: #151515;
