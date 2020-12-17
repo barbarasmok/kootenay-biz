@@ -27,6 +27,8 @@
     <link href="css/lib.css" rel="stylesheet">
 	
 	<!-- Custom - Common CSS -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="css/rtl.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -79,10 +81,12 @@
 			<!-- Menu Block -->
 			<div class="container-fluid no-left-padding no-right-padding menu-block">
 				<nav class="navbar ownavigation navbar-expand-lg">
-					<a class="navbar-brand" href="index.html">KootenayBiz.com</a>
-					<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar7" aria-controls="navbar7" aria-expanded="false" aria-label="Toggle navigation">
-						<i class="fa fa-bars"></i>
-					</button>
+					<div class="d-flex">
+						<a class="navbar-brand" href="index.html" title="Logo"><img src="images/kootenaybiz_logo_NEW.png"></a>
+						<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar7" aria-controls="navbar7" aria-expanded="false" aria-label="Toggle navigation">
+							<i class="fa fa-bars"></i>
+						</button>
+					</div>
 					<div class="collapse navbar-collapse" id="navbar7">
 						<ul class="navbar-nav">
 							<li><a class="nav-link" title="Features" href="#">Home</a></li>
@@ -639,7 +643,7 @@
 								<div class="col-12 col-md-12 col-sm-6 blog-paralle">
 									<aside class="widget widget_newsletter" style="margin-top:0;">
 										<div class="newsletter-box">
-											<i class="ion-ios-email-outline"></i>
+											<i class="ion-ios-email"></i>
 											<h4>Sign Up for Newsletter</h4>
 											<p>Sign up to receive latest posts and news </p>
 											<form>
@@ -911,25 +915,25 @@
 	<footer class="container-fluid no-left-padding no-right-padding footer-main mt-5">
 		
 		<div class="row d-flex justify-content-around">
-			<div class="col-lg-6" style="padding-right:0;">
+			<div class="col-lg-6" style="padding-right:0; padding-left:0">
 				<aside class="widget widget_newsletter">
 					<div class="newsletter-box">
 						<i class="ion-ios-email"></i>
 						<h4>Sign Up for Newsletter</h4>
 						<p class="px-4">The digital subscription to kootenaybiz.com includes two monthly eNewsletters, and various special editions that highlight events and deals of interest.</p>
-						<form style="max-width: 567px;">
+						<form style="max-width:567px;">
 							<a class="btn" href="subscribe.html" role="button">Subscribe to KootenayBiz</a>						
 						</form>
 					</div>
 				</aside>
 			</div>
-			<div class="col-lg-6" style="padding-left:0">
+			<div class="col-lg-6" style="padding-left:0;padding-right:0;">
 				<aside class="widget widget_newsletter">
-					<div class="newsletter-box" style="background-color: #464646;">
+					<div class="newsletter-box" style="background-color: #464646; padding: 40px;">
 						<i class="ion-ios-paper"></i>
 						<h4 class="text-white">Share your story</h4>
 						<p class="px-4 text-white">Are you a business owner—or know of a business—in the Kootenays with something new and exciting happening with the company?</p>
-						<form style="max-width: 567px;">
+						<form style="max-width:567px;">
 							<a class="btn btnWhite" href="submit.html" role="button">Share your Story</a>						
 						</form>
 					</div>
