@@ -369,7 +369,7 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 }
 .top-header .top-right,
 .user-info {
-	margin: 15px 0;
+	margin: 20px 0;
 	padding-left: 0;
 	padding-right: 0;
 	text-align: right;
@@ -5003,7 +5003,7 @@ article[class*="type-"] .entry-content .entry-footer .social > li  > a:hover {
 		width: 100%;
 	} 
 	.navbar-brand img {
-		width: 100%;
+		width: 130%;
 	}
 	
 }
