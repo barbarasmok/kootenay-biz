@@ -250,6 +250,7 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 .header_s {
 	background-color: #fff;
 	position: relative;
+	border-bottom: solid 1px #eeeeee;
 }
 .header_s.fixed-top {
 	position: fixed;
@@ -613,7 +614,7 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 
 /* - Header 7 */
 .header_s7 .menu-block {
-	border-bottom: s;
+	border-bottom: none;
 }
 
 /* + Footer */
