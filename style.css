@@ -4354,6 +4354,11 @@ article[class*="type-"] .entry-content .entry-footer .social > li  > a:hover {
 	padding: 37px 30px;
 	text-align: center;
 }
+.widget_newsletter .newsletter-box-2 {
+	background-color: #f7f7f7;
+	padding: 37px 30px;
+	text-align: center;
+}
 .widget_newsletter .newsletter-box > i {
 	background-color: #fff;
 	border-radius: 50%;
@@ -4364,23 +4369,37 @@ article[class*="type-"] .entry-content .entry-footer .social > li  > a:hover {
 	width: 57px;
 	margin-bottom: 25px;
 }
-.widget_newsletter .newsletter-box > h4 {
+.widget_newsletter .newsletter-box-2 > i {
+	background-color: #02133F;
+	border-radius: 50%;
+	display: inline-block;
+	font-size: 28px;
+	line-height: 2.3;
+	height: 57px;
+	width: 57px;
+	margin-bottom: 25px;
+}
+.widget_newsletter .newsletter-box > h4,
+.widget_newsletter .newsletter-box-2 > h4 {
 	font-size: 18px;
 	font-weight: bold;
 	letter-spacing: -0.45px;
 	line-height: 1.66;
 	margin-bottom: 7px;
 }
-.widget_newsletter .newsletter-box > p {
+.widget_newsletter .newsletter-box > p,
+.widget_newsletter .newsletter-box-2 > p {
 	color: #02133F;
 	letter-spacing: 0.225px;
 	line-height: 1.73;
 }
-.widget_newsletter .newsletter-box > form {
+.widget_newsletter .newsletter-box > form,
+.widget_newsletter .newsletter-box-2 > form {
 	display: inline-block;
 	width: 100%;
 }
-.widget_newsletter .newsletter-box > form .form-control {
+.widget_newsletter .newsletter-box > form .form-control,
+.widget_newsletter .newsletter-box-2 > form .form-control {
 	background-color: #ffffff;
 	border: none;
 	border-radius: 0;
@@ -4391,23 +4410,28 @@ article[class*="type-"] .entry-content .entry-footer .social > li  > a:hover {
 	padding-bottom: 0.6rem;
 	text-align: center;
 }
-.widget_newsletter .newsletter-box > form .form-control::-webkit-input-placeholder {
+.widget_newsletter .newsletter-box > form .form-control::-webkit-input-placeholder,
+.widget_newsletter .newsletter-box-2 > form .form-control::-webkit-input-placeholder {
 	color: #02133F;
 	opacity: 1;
 }
-.widget_newsletter .newsletter-box > form .form-control:-moz-placeholder { 
+.widget_newsletter .newsletter-box > form .form-control:-moz-placeholder,
+.widget_newsletter .newsletter-box-2 > form .form-control:-moz-placeholder { 
 	color: #02133F;
 	opacity: 1;
 }
-.widget_newsletter .newsletter-box > form .form-control::-moz-placeholder {
+.widget_newsletter .newsletter-box > form .form-control::-moz-placeholder,
+.widget_newsletter .newsletter-box-2 > form .form-control::-moz-placeholder {
 	color: #02133F;
 	opacity: 1;
 }
-.widget_newsletter .newsletter-box > form .form-control:-ms-input-placeholder {  
+.widget_newsletter .newsletter-box > form .form-control:-ms-input-placeholder,
+.widget_newsletter .newsletter-box-2 > form .form-control:-ms-input-placeholder {  
 	color: #02133F;
 	opacity: 1;
 }
-.widget_newsletter .newsletter-box > form input[type="submit"] {
+.widget_newsletter .newsletter-box > form input[type="submit"],
+.widget_newsletter .newsletter-box-2 > form input[type="submit"] {
 	background-color: #02133F;
 	border: none;
 	cursor: pointer;
@@ -4425,7 +4449,8 @@ article[class*="type-"] .entry-content .entry-footer .social > li  > a:hover {
 	-o-transition: all 1s ease 0s;
 	transition: all 1s ease 0s;
 }
-.widget_newsletter .newsletter-box > form input[type="submit"]:hover {
+.widget_newsletter .newsletter-box > form input[type="submit"]:hover,
+.widget_newsletter .newsletter-box-2 > form input[type="submit"]:hover {
 	background-color: transparent;
 	color: #02133F;
 	box-shadow: inset 0px 0px 2px 0px #02133F;
