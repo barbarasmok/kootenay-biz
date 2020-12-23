@@ -1779,10 +1779,10 @@ div.type-post .entry-content {
 .type-post .entry-header .entry-title {
 	color: #151515;
 	font-family: 'Lato', sans-serif;
-	font-size: 24px;
+	font-size: 22px;
 	font-weight: bold;
 	letter-spacing: -0.6px;
-	line-height: 1.25;
+	line-height: 1.2;
 	margin: 0 0 16px;
 	padding-bottom: 2px;
 	position: relative;
@@ -1790,7 +1790,7 @@ div.type-post .entry-content {
 .type-post .entry-header .entry-title-sponsors {
 	color: #151515;
 	font-family: 'Merriweather', sans-serif;
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: bold;
 	letter-spacing: -0.6px;
 	line-height: 1.25;
@@ -1801,7 +1801,7 @@ div.type-post .entry-content {
 
 .type-post:not(.post-position) .entry-header .entry-title::before,
 .type-post:not(.post-position) .entry-header .entry-title-sponsors::before {
-	background-color: #FFF;
+	background-color: none;
 	bottom: 0;
 	content: "";
 	height: 2px;
