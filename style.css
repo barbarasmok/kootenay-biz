@@ -81,6 +81,9 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 	word-wrap: break-word;
 }
 
+.img-fluid {
+	padding: 12px;
+}
 .sectionDivider {
 	height: 0;
 	margin: 0.5rem 0;
@@ -2983,6 +2986,9 @@ article[class*="type-"] .entry-content .entry-footer .social > li  > a:hover {
 	.cover-container .widget-area,
 	.cover-fullwidth .widget-area {
 		margin-top: 53px;
+	}
+	.img-fluid {
+		padding: 0;
 	}
 }
 
