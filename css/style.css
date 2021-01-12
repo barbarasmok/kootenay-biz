@@ -1548,6 +1548,22 @@ footer p.copyright {
     margin:auto;
     text-align: center;
 }
+.title-space{
+    margin:30px 0;
+    width: 70px;
+    border-top:5px solid #35373E;
+}
+
+.form-contact-mobile {
+    display: block;
+}
+.form-contact-tablet {
+    display: none;
+}
+
+.form-contact-desktop {
+    display: none;
+}
 /* /////////////////////////////////////////////////////
 /////////////// MEDIA QUERIES ////////////////////////*/
 
@@ -1579,9 +1595,6 @@ footer p.copyright {
     .communityInsightsHeadlines {
         font-size: 0.8rem;
     } 
-    .form-contact-mobile {
-        display:none;
-    }
 
     .footerLogo {
         width: 100%;
@@ -1875,10 +1888,16 @@ footer p.copyright {
     .form-inline .form-control {
         width: 60%;
     }
-
     .navbar-brand img {
         width: 70%;
         margin: 10px auto;
+    }
+    /* form */
+    .form-contact-mobile {
+        display:none;
+    }
+    .form-contact-tablet {
+        display: block;
     }
 }
 
@@ -2042,14 +2061,6 @@ footer p.copyright {
 }
 
 @media (min-width: 1024px) { 
-    .form-contact-tablet {
-        display: none;
-    }
-
-    .form-contact-desktop {
-        display: block;
-    }
-    
     .col-md-6 {
         -ms-flex: 0 0 50%;
         flex: 0 0 32%;
