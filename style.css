@@ -2807,6 +2807,30 @@ article[class*="type-"] .entry-content .entry-footer .social > li  > a:hover {
 	color: #02133F;
 }
 
+.month {
+	font-size: 16px;
+}
+
+.badge-secondary {
+
+    color: #fff;
+    background-color:#02133F;
+
+}
+.badge {
+
+    display: inline-block;
+    padding: .5em;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0;
+
+}
 /* ========================================================================== */
 /* ========================================================================== */
 							/* [ + Responsive ] */
