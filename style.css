@@ -888,7 +888,11 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 	background-color: #02133F;
 }
 .footer-dark .ftr-social > li > a {
-	color: #e1e1e1;
+	color: #FFF;
+}
+.footer-dark .ftr-social > li > a:hover {
+	color: #1F77F8;
+	opacity: 1;
 }
 .footer-dark .subscribe-block .container > h3 { 
 	color: #fff;
