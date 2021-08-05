@@ -78,7 +78,7 @@ a {
     outline: 0 !important;
 }
 a:hover {
-	color:#1F77F8;
+	color:#215df8;
 }
 
 h1,h2,h3,h4,h5,h6,p,a,li,span {
@@ -307,6 +307,23 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 	font-size: 22px;
 }
 
+.sectionHeading {
+	text-transform: uppercase;
+	font-weight: 900;
+	width: 480px;
+	border-bottom: 5px solid #215df8;
+	margin-bottom: 1rem;	
+}
+
+.sectionHeadingCommunity {
+	text-transform: uppercase;
+	font-weight: 900;
+	width: 480px;
+	border-top: 5px solid #215df8;
+	margin-top: 0.5rem;	
+	padding-top: 0.5rem;
+}
+
 /* .header_s .menu-block .ownavigation .image-logo > img {
 	max-height: 50px;
 } */
@@ -516,7 +533,7 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 .header_s .menu-block .ownavigation .navbar-nav > .active > a:hover, 
 .header_s .menu-block .ownavigation .navbar-nav li:hover > a, 
 .header_s .menu-block .ownavigation .navbar-nav li a:hover {
-	color: #1F77F8;
+	color: #215df8;
 }
 .header_s .ownavigation .navbar-nav li .dropdown-menu li > a { 
 	font-family: 'Lato', sans-serif;
@@ -525,7 +542,7 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 	text-transform: capitalize;
 }
 .header_s .ownavigation .navbar-nav li .dropdown-menu li > a:hover { 
-	color: #1F77F8;
+	color: #215df8;
 }
 
 /* - Header 2 */
@@ -888,13 +905,13 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 
 /* - Footer Dark */
 .footer-dark {
-	background-color: #02133F;
+	background-color: #04257c;
 }
 .footer-dark .ftr-social > li > a {
 	color: #FFF;
 }
 .footer-dark .ftr-social > li > a:hover {
-	color: #1F77F8;
+	color: #215df8;
 	opacity: 1;
 }
 .footer-dark .subscribe-block .container > h3 { 
@@ -1832,7 +1849,7 @@ div.type-post .entry-content {
 }
 .type-post .entry-header .entry-title > a:hover,
 .type-post .entry-header .entry-title-sponsors > a:hover {
-	color: #1F77F8;
+	color: #215df8;
 }
 .type-post .entry-content p {
 	color: #02133F;
@@ -3618,10 +3635,10 @@ article[class*="type-"] .entry-content .entry-footer .social > li  > a:hover {
 	font-family: "Lato",sans-serif;
 	text-decoration: none;
 	color: #02133F;
-	font-size: 14px;
+	font-size: 18px;
 	line-height: 1.7;
 	word-wrap: break-word;
-	text-transform: uppercase;	
+	text-transform: none;	
 }
 .widget-title {
     color: #02133F;
@@ -3816,15 +3833,16 @@ article[class*="type-"] .entry-content .entry-footer .social > li  > a:hover {
 .widget_categories ul {
 	margin-bottom: 0;
 	position: relative;
+	display: flex;
 }
 .widget_categories > ul li {
-	background-color: #02133F; 
-    color: #FFF;
+	background-color: #F1F5FD; 
+    color: #02133F;
     display: inline-block;
     font-family: "Lato",sans-serif;
-    font-size: 12px;
+    font-size: 18px;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: none;
 	-webkit-transition: all 1s ease 0s;
 	-moz-transition: all 1s ease 0s;
 	transition: all 1s ease 0s;
@@ -3837,8 +3855,9 @@ article[class*="type-"] .entry-content .entry-footer .social > li  > a:hover {
 }
 .widget_categories > ul li a {
 	position: relative;
-	color:white;
+	color:#02133F;
 }
+
 /* .widget_categories ul > li > a::before {
 	background-color: #f7f7f7;
 	content: "";
@@ -3866,8 +3885,12 @@ article[class*="type-"] .entry-content .entry-footer .social > li  > a:hover {
 	margin-bottom: 0;
 }
 .widget_categories ul > li:hover {
-	background-color: #1F77F8; 
-    color: #FFF;
+	background-color: #215df8; 
+    color: #FFFFFF;
+}
+
+.widget_categories ul > li a:hover {
+    color: #FFFFFF;
 }
 /* .widget_categories ul > li:hover > a::before {
 	background-color: #02133F;
@@ -3884,7 +3907,8 @@ article[class*="type-"] .entry-content .entry-footer .social > li  > a:hover {
 	padding: 9px 0 9px 15px;
 	display: inline-block;
 	max-width: 100%;
-	font-size: 12px;
+	font-size: 18px;
+	font-weight: 900;
 	line-height: 1.66;
 	-webkit-transition: all 1s ease 0s;
 	-moz-transition: all 1s ease 0s;
@@ -3893,16 +3917,16 @@ article[class*="type-"] .entry-content .entry-footer .social > li  > a:hover {
 .widget_categories ul li:hover,
 .widget_categories ul li:hover > a,
 .widget_categories ul li > a:hover {
-	color: #f7f7f7;
+	color: #FFF;
 }
 .widget_categories.text-center > ul li {
 	text-align: center;
 	padding: 9px 15px;
-	color:white;
+	color:#02133F;
 }
 .widget_categories.text-center ul li a {
 	padding: 0;
-	color:white;
+	color:#02133F;
 }
 
 .widget_categories .select_box {
@@ -4394,12 +4418,12 @@ article[class*="type-"] .entry-content .entry-footer .social > li  > a:hover {
 
 /* - Widget : Newsletter */
 .widget_newsletter .newsletter-box {
-	background-color: #f7f7f7;
+	background-color: #F1F5FD;
 	padding: 37px 30px;
 	text-align: center;
 }
 .widget_newsletter .newsletter-box-2 {
-	background-color: #f7f7f7;
+	background-color: #F1F5FD;
 	padding: 37px 30px;
 	text-align: center;
 }

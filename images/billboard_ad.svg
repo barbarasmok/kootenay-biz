@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="970px" height="250px" viewBox="0 0 970 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Billboard 970x250</title>
-    <g id="Billboard-970x250" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="Rectangle" fill="#00C9B7" x="-21" y="0" width="1002" height="255"></rect>
-        <text id="Billboard-Ad-970x250" font-family="Lato-Heavy, Lato" font-size="22" font-weight="600" letter-spacing="-0.513333563" fill="#FFFFFF">
-            <tspan x="374.037336" y="141">Billboard Ad 970x250</tspan>
-        </text>
+<svg width="1002px" height="255px" viewBox="0 0 1002 255" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>billboard_ad</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="billboard_ad" fill-rule="nonzero">
+            <rect id="Rectangle" fill="#215DF8" x="0" y="0" width="1002" height="255"></rect>
+            <text id="Billboard-Ad-970x250" fill="#FFFFFF" font-family="Lato-Bold, Lato" font-size="22" font-weight="bold">
+                <tspan x="395.037336" y="141">Billboard Ad 970x250</tspan>
+            </text>
+        </g>
     </g>
 </svg>
