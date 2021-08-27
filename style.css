@@ -96,6 +96,91 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 	overflow: hidden;
 	border-top: 3px solid #CACACA;
 }
+
+
+/* Footer*/
+.logo-footer {
+	margin-bottom: 40px;
+}
+footer {
+	color: white;
+	background-color: #00113E;
+}
+footer p {
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+	margin-right: 10px;
+}
+footer a {
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+}
+footer h6 {
+	font-family: 'Roboto', serif;
+	margin-bottom: 40px;
+	position: relative;
+}
+footer h6:after {
+	position: absolute;
+	content: "";
+	background: grey;
+	width: 12%;
+	height: 1px;
+	left: 0;
+	bottom: -20px;
+}
+.btn-footer {
+	color: white;
+	text-decoration: none;
+	border: 1px solid;
+	border-radius: 43px;
+	font-size: 13px;
+	padding: 7px 30px;
+	line-height: 47px;
+}
+.btn-footer:hover {	
+	text-decoration: none;	   
+}
+.form-footer input[type="text"] {
+	border: none;
+	border-radius: 20px 0 0 20px;
+	outline: none;
+	padding: 10px;
+	font-size: 14px;
+}
+.form-footer input[type="button"] {
+	border: none;
+	background:#232323;
+	margin-left: -5px;
+	color: #fff;
+	outline: none;
+	border-radius: 0 20px 20px 0;
+	padding: 10px;
+}
+
+.social .fa {
+	color: #00113E;
+	font-size: 22px;
+	padding: 5px 15px;
+	background: white;
+}
+footer ul li {
+	list-style: none;
+	display: block;
+}
+footer ul  {
+	padding-left: 0;
+}
+footer ul  li a {
+	text-decoration: none;
+	color: white;
+	text-decoration:none;
+}
+.logo-part {
+	border-right: 1px solid white;
+	height: 100%;
+}
+
 /* ========================================================================== */
 /* ========================================================================== */
 							/* [ + Plugins ] */
