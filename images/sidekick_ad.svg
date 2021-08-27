@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="318px" height="614px" viewBox="0 0 318 614" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>sidekick_ad</title>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="sidekick_ad" transform="translate(0.500000, 0.000000)" fill-rule="nonzero">
-            <rect id="Rectangle" fill="#215DF8" x="0" y="0" width="317" height="614"></rect>
-            <text id="Sidekick-300x600" fill="#FFFFFF" font-family="Lato-Heavy, Lato" font-size="18" font-weight="700">
-                <tspan x="85.42" y="257">Sidekick 300x600</tspan>
-            </text>
-        </g>
+<svg width="300px" height="600px" viewBox="0 0 300 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Sidekick</title>
+    <g id="Sidekick" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#3E75FF" x="0" y="0" width="300" height="600"></rect>
+        <text id="Sidekick-Ad-(300x600" font-family="Roboto-Black, Roboto" font-size="23" font-weight="800" line-spacing="35" fill="#FFFFFF">
+            <tspan x="88.0302734" y="271">Sidekick Ad </tspan>
+            <tspan x="96.0151367" y="306">(300x600)</tspan>
+        </text>
     </g>
 </svg>
