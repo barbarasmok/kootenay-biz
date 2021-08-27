@@ -159,10 +159,9 @@ footer h6:after {
 }
 
 .social .fa {
-	color: #00113E;
+	color: white;
 	font-size: 22px;
-	padding: 5px 15px;
-	background: white;
+	padding: 5px;
 }
 footer ul li {
 	list-style: none;
