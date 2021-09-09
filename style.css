@@ -76,10 +76,11 @@ img {
 }
 a {
     outline: 0 !important;
+	color: #4D4D4D;
 }
 
 a:hover {
-	color:#3E75FF;
+	color: #3E71E2;
 	text-decoration: none;
 }
 
@@ -92,9 +93,10 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 }
 .sectionDivider {
 	height: 0;
-	margin: 0;
+	margin: 50px auto;
 	overflow: hidden;
-	border-top: 3px solid #CACACA;
+	border-top: 2px solid #CACACA;
+	opacity: 0.2;
 }
 
 p {
@@ -343,6 +345,24 @@ footer ul  li a {
 							/* [ + Elements ] */
 /* ========================================================================== */
 /* ========================================================================== */
+
+/* Btns */
+.btn1 {
+    font-size: 1.3em;
+    padding: 5px;
+    margin: 5px auto;
+    display: block;
+    width: 100%;
+    font-weight: 900;
+    align-items: center;
+    justify-content: center;
+    background-color: #082972;
+    color: #FFF;
+}
+.btn1:hover {
+    background-color: #051D51;
+    color: #FFF;
+}
 /* + Header */
 .header_s {
 	background-color: #fff;
@@ -1902,12 +1922,11 @@ div.type-post .entry-content {
 .type-post .entry-header > span {
 	color: #4E4E4E;
 	font-size: 12px;
-	letter-spacing: 0.18px;
 	line-height: 2;
 	text-transform: uppercase;
 }
 .type-post .entry-header > span > a {
-	color: #3E75FF;
+	color: #3E71E2;
 	text-decoration: none;
 	-webkit-transition: all 1s ease 0s;
 	-moz-transition: all 1s ease 0s;
@@ -1916,16 +1935,15 @@ div.type-post .entry-content {
 	font-weight: 900;
 }
 .type-post .entry-header > span > a:hover {
-	color: #4E4E4E;
+	color: #4D4D4D;
 	text-decoration: none;
 }
 .type-post .entry-header .entry-title-lg {
 	color: #4E4E4E;
-	font-size: 36px;
+	font-size: 33px;
 	font-weight: bold;
-	letter-spacing: -0.6px;
 	line-height: 1.1;
-	margin: 0 0 10px;
+	margin: 5px 0 10px;
 	padding-bottom: 2px;
 	position: relative;
 }
@@ -1933,7 +1951,6 @@ div.type-post .entry-content {
 	color: #4E4E4E;
 	font-size: 20px;
 	font-weight: bold;
-	letter-spacing: -0.6px;
 	line-height: 1.2;
 	margin: 0 0 16px;
 	padding-bottom: 2px;
@@ -1941,23 +1958,21 @@ div.type-post .entry-content {
 }
 
 .type-post .entry-header .entry-title-md-sponsors {
-	color: #3E75FF;
+	color: #3E71E2;
 	font-family: 'Merriweather', serif;
 	font-size: 12px;
-	letter-spacing: -0.6px;
 	line-height: 1.5;
-	margin: 0 0 10px;
+	margin: 5px 0 10px;
 	padding-bottom: 2px;
 	position: relative;
 } 
 
 .type-post .entry-header .entry-title-md-sponsors a {
-	color: #3E75FF;
+	color: #3E71E2;
 	font-size: 18px;
 	font-weight: bold;
-	letter-spacing: -0.6px;
 	line-height: 1.4;
-	margin: 0 0 10px;
+	margin: 5px 0 10px;
 	padding-bottom: 2px;
 	position: relative;
 } 
@@ -1970,7 +1985,6 @@ div.type-post .entry-content {
 	color: #4E4E4E;
 	font-size: 16px;
 	font-weight: bold;
-	letter-spacing: -0.6px;
 	line-height: 1.2;
 	margin:0;
 	padding-bottom: 0;
@@ -1978,9 +1992,8 @@ div.type-post .entry-content {
 }
 .type-post .entry-header .entry-title-sponsors {
 	color: #4E4E4E;
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: bold;
-	letter-spacing: -0.6px;
 	line-height: 1.25;
 	margin: 5px 0 16px;
 	padding-bottom: 2px;
@@ -2011,7 +2024,7 @@ div.type-post .entry-content {
 }
 .type-post .entry-header .entry-title > a:hover,
 .type-post .entry-header .entry-title-sponsors > a:hover {
-	color: #3E75FF;
+	color: #9ea3b1;
 	text-decoration: none;
 }
 .type-post .entry-content p {
@@ -2037,29 +2050,23 @@ div.type-post .entry-content {
 	transition: all 0.5s ease 0s;
 }
 .type-post .entry-content > a {
-	color: #4E4E4E;
+	color: #FFF;
 	display: inline-block;
-	font-size: 14px;
+	font-size: 12px;
 	letter-spacing: 0.18px;
 	line-height: 2;
-	margin-top: 5px;
+	margin-top: 0px;
 	position: relative;
 	text-decoration: none;
 	text-transform: uppercase;
-	animation-duration: 0.6s;
+	background-color: #3E71E2;
+	width: 30%;
 }
-.type-post .entry-content > a::before {
-	background-color: #4E4E4E;
-	content: "";
-	left: 0;
-	position: absolute;
-	bottom: 0;
-	height: 2px;
-	width: 0;
-}
+
 .type-post .entry-content > a:hover {
-	color: #4E4E4E;
+	color: #FFF;
 	text-decoration: none;
+	background-color: #2556C1;
 }
 .type-post:hover .entry-content > a {
 	animation-name: bounceIn;
