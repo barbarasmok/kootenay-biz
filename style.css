@@ -114,6 +114,16 @@ p {
 	}
 }
 
+.viewAll {
+	max-width: 90%;
+}
+
+@media (min-width: 728px) {
+	.viewAll {
+		max-width: 30%;
+	}
+}
+
 /* Footer*/
 .logo-footer {
 	margin-bottom: 40px;
