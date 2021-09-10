@@ -104,6 +104,16 @@ p {
 	font-size: 16px;
 } 
 
+.cta {
+	max-width: 100%;
+}
+
+@media (min-width: 728px) {
+	.cta {
+		max-width: 50%;
+	}
+}
+
 /* Footer*/
 .logo-footer {
 	margin-bottom: 40px;
