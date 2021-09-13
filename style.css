@@ -100,8 +100,9 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 }
 
 p {
-	font-family: 'DM Sans', sans-serif;
-	font-size: 16px;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 1.3;
 } 
 
 .cta {
@@ -1987,9 +1988,9 @@ div.type-post .entry-content {
 }
 .type-post .entry-header .entry-title-md {
 	color: #4E4E4E;
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: bold;
-	line-height: 1.2;
+	line-height: 1.3;
 	margin: 0 0 16px;
 	padding-bottom: 2px;
 	position: relative;
@@ -2020,10 +2021,10 @@ div.type-post .entry-content {
 } 
 
 .type-post .entry-header .entry-title-sm {
-	color: #4E4E4E;
+	color: #6B6B6B;
 	font-size: 16px;
-	font-weight: bold;
-	line-height: 1.2;
+	font-weight: normal;
+	line-height: 1.3;
 	margin:0;
 	padding-bottom: 0;
 	position: relative;
@@ -2033,7 +2034,7 @@ div.type-post .entry-content {
 	font-size: 16px;
 	font-weight: bold;
 	line-height: 1.25;
-	margin: 5px 0 16px;
+	margin: 10px 0 16px;
 	padding-bottom: 2px;
 	position: relative;
 }
@@ -2067,7 +2068,6 @@ div.type-post .entry-content {
 }
 .type-post .entry-content p {
 	color: #6B6B6B;
-	letter-spacing: 0.225px;
 	line-height: 1.4;
     font-size: 16px;
 	-webkit-hyphens: auto;
@@ -2093,14 +2093,47 @@ div.type-post .entry-content {
 	font-size: 12px;
 	letter-spacing: 0.18px;
 	line-height: 2;
-	margin-top: 0px;
+	margin-top: 10px;
 	position: relative;
 	text-decoration: none;
 	text-transform: uppercase;
 	background-color: #3E71E2;
-	width: 30%;
+	width: 50%;
 }
 
+@media (min-width: 728px)  {
+	.type-post .entry-content > a {
+		color: #FFF;
+		display: inline-block;
+		font-size: 12px;
+		letter-spacing: 0.18px;
+		line-height: 2;
+		margin-top: 150px;
+		position: relative;
+		text-decoration: none;
+		text-transform: uppercase;
+		background-color: #3E71E2;
+		width: 40%;
+	}
+	
+}
+
+@media (min-width: 1200px)  {
+	.type-post .entry-content > a {
+		color: #FFF;
+		display: inline-block;
+		font-size: 12px;
+		letter-spacing: 0.18px;
+		line-height: 2;
+		margin-top: 10px;
+		position: relative;
+		text-decoration: none;
+		text-transform: uppercase;
+		background-color: #3E71E2;
+		width: 40%;
+	}
+	
+}
 .type-post .entry-content > a:hover {
 	color: #FFF;
 	text-decoration: none;
@@ -2790,6 +2823,13 @@ article[class*="type-"] .entry-content .entry-footer .social > li  > a:hover {
 	font-size: 16px;
 	font-weight: 900;
 }
+
+.post-nosidebar > .entry-cover .entry-header > span.post-category-sponsors a {
+	font-weight: normal;
+	color: #6B6B6B;
+	font-size: 14px;
+}
+
 .post-nosidebar > .entry-cover .entry-header > span > a { 
 	color: #fff;
 	text-decoration: none;
