@@ -93,7 +93,7 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 }
 .sectionDivider {
 	height: 0;
-	margin: 50px auto;
+	margin: 10px auto;
 	overflow: hidden;
 	border-top: 2px solid #CACACA;
 	opacity: 0.2;
@@ -372,7 +372,7 @@ footer ul  li a {
 .btn1 {
     font-size: 16px;
     padding: 5px;
-    margin: 5px auto;
+    margin: px auto;
     display: block;
     width: 100%;
     font-weight: 900;
@@ -1979,7 +1979,7 @@ div.type-post .entry-content {
 }
 .type-post .entry-header .entry-title-lg {
 	color: #4E4E4E;
-	font-size: 33px;
+	font-size: 24px;
 	font-weight: bold;
 	line-height: 1.1;
 	margin: 5px 0 10px;
@@ -1988,7 +1988,7 @@ div.type-post .entry-content {
 }
 .type-post .entry-header .entry-title-md {
 	color: #4E4E4E;
-	font-size: 16px;
+	font-size: 12px;
 	font-weight: bold;
 	line-height: 1.3;
 	margin: 0 0 16px;
@@ -2008,7 +2008,7 @@ div.type-post .entry-content {
 
 .type-post .entry-header .entry-title-md-sponsors a {
 	color: #3E71E2;
-	font-size: 18px;
+	font-size: 14px;
 	font-weight: bold;
 	line-height: 1.4;
 	margin: 5px 0 10px;
@@ -2022,13 +2022,88 @@ div.type-post .entry-content {
 
 .type-post .entry-header .entry-title-sm {
 	color: #6B6B6B;
-	font-size: 16px;
+	font-size: 12px;
 	font-weight: normal;
 	line-height: 1.3;
 	margin:0;
 	padding-bottom: 0;
 	position: relative;
 }
+
+.sponsorsContent {
+	max-height: 200px;
+	margin-bottom: 20px;
+}
+
+
+@media (min-width: 728px) {
+	.sponsorsContent {
+		margin-bottom: 40px;
+		max-height: 300px;
+	}
+	.type-post .entry-content > a {
+		margin-top: 30px;
+	}
+	.sectionDivider {
+		height: 0;
+		margin: 50px auto;
+		overflow: hidden;
+		border-top: 2px solid #CACACA;
+		opacity: 0.2;
+	}
+	.type-post .entry-content p {
+		font-size: 16px;
+	}
+	.type-post .entry-content p:last-of-type {
+		margin-bottom: 0;
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 998px) {
+	.type-post .entry-header .entry-title-sm {
+		color: #6B6B6B;
+		font-size: 16px;
+		font-weight: normal;
+		line-height: 1.3;
+		margin:0;
+		padding-bottom: 0;
+		position: relative;
+	}
+	.type-post .entry-header .entry-title-md-sponsors a {
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 1.4;
+	}
+
+	.type-post h3.entry-title-md {
+		font-size: 12px;
+		line-height: 0.5;
+	}
+	.type-post .entry-header .entry-title-md {
+		font-size: 16px;
+	}
+	.type-post .entry-header .entry-title-lg {
+		font-size: 36px;
+	}
+	.sectionHeading {
+		font-size: 24px;
+	}
+	.sponsorsContent {
+		max-height: 170px;
+	}
+}
+
+@media (min-width: 1080px) {
+	.sponsorsContent {
+		margin-bottom: 40px;
+		max-height: 160px;
+	}
+	.type-post .entry-content > a {
+		margin-top: 30px;
+	}
+}
+
 .type-post .entry-header .entry-title-sponsors {
 	color: #4E4E4E;
 	font-size: 16px;
@@ -2069,7 +2144,7 @@ div.type-post .entry-content {
 .type-post .entry-content p {
 	color: #6B6B6B;
 	line-height: 1.4;
-    font-size: 16px;
+    font-size: 12px;
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
 	hyphens: auto;
@@ -2078,6 +2153,7 @@ div.type-post .entry-content {
 
 .type-post .entry-content p:last-of-type {
 	margin-bottom: 0;
+	font-size: 12px;
 }
 
 .type-post .entry-content > a,
@@ -2093,46 +2169,12 @@ div.type-post .entry-content {
 	font-size: 12px;
 	letter-spacing: 0.18px;
 	line-height: 2;
-	margin-top: 10px;
+	margin-top: 20px;
 	position: relative;
 	text-decoration: none;
 	text-transform: uppercase;
 	background-color: #3E71E2;
 	width: 50%;
-}
-
-@media (min-width: 728px)  {
-	.type-post .entry-content > a {
-		color: #FFF;
-		display: inline-block;
-		font-size: 12px;
-		letter-spacing: 0.18px;
-		line-height: 2;
-		margin-top: 150px;
-		position: relative;
-		text-decoration: none;
-		text-transform: uppercase;
-		background-color: #3E71E2;
-		width: 40%;
-	}
-	
-}
-
-@media (min-width: 1200px)  {
-	.type-post .entry-content > a {
-		color: #FFF;
-		display: inline-block;
-		font-size: 12px;
-		letter-spacing: 0.18px;
-		line-height: 2;
-		margin-top: 10px;
-		position: relative;
-		text-decoration: none;
-		text-transform: uppercase;
-		background-color: #3E71E2;
-		width: 40%;
-	}
-	
 }
 .type-post .entry-content > a:hover {
 	color: #FFF;
