@@ -1010,16 +1010,21 @@ footer ul  li a {
 }
 
 .widget .btn {
-    font-family: "DM Sans",sans-serif;
-    text-decoration: none;
-    color: #FFF;
-    font-size: 14px;
-    line-height: 1.7;
-    word-wrap: break-word;
-	text-transform: uppercase;
-	background-color: #4E4E4E;
-	border-radius: 0;
-	background-color: #4E4E4E;
+	font-size: 16px;
+	padding: 5px;
+	margin: 10px auto;
+	display: block;
+	width: 60%;
+	font-weight: 900;
+	align-items: center;
+	justify-content: center;
+	background-color: #3E71E2;
+	color: #FFF;
+}
+
+.widget .btn:hover {
+	background-color: #051D51;
+	color: #FFF;
 }
 
 .widget .btnWhite {
@@ -1033,14 +1038,6 @@ footer ul  li a {
 	background-color: #FFF;
 	font-weight: 500;
 	border-radius: 0;
-}
-
-.widget .btn:hover {
-	background-color: #FFF;
-	color: #4E4E4E;
-	box-shadow: inset 0px 0px 2px 0px #4E4E4E;
-	-webkit-box-shadow: inset 0px 0px 2px 0px #4E4E4E;
-	font-family: 'DM Sans', sans-serif;
 }
 
 .widget .btnWhite:hover {
@@ -3051,12 +3048,7 @@ article[class*="type-"] .entry-content .entry-footer .social > li  > a:hover {
 	line-height: 1.6;
 	padding: 0 27px;
 }
-.contact-form .form-group:first-child {
-	padding-right: 7.5px;
-}
-.contact-form .form-group:nth-child(2) {
-	padding-left: 7.5px;
-}
+
 .contact-form .form-group .form-control {
     color: #4E4E4E;
 	background-color: #f7f7f7;
@@ -3087,31 +3079,25 @@ article[class*="type-"] .entry-content .entry-footer .social > li  > a:hover {
 	opacity: 1;
 }
 .contact-form .form-group .submit {
-	background-color: #4E4E4E;
+	font-size: 16px;
+	padding: 5px;
+	margin: 10px auto;
+	float:left;
+	width: 20%;
+	display: block;
+	border-radius: 5px;
+	font-weight: 900;
+	align-items: center;
+	justify-content: center;
+	background-color: #3E71E2;
+	color: #FFF;
 	border: none;
-	box-shadow: none;
-	color: #ffffff;
-	float: right;
-	font-family: 'DM Sans', sans-serif;
-	font-size: 14px;
-	letter-spacing: -0.35px;
-	line-height: 20px;
-	margin-top: 10px;
-	outline: none;
-	padding: 10px 40px;
-	display: inline-block;
-	text-transform: uppercase;
-	-webkit-transition: all 1s ease 0s;
-	-moz-transition: all 1s ease 0s;
-	-o-transition: all 1s ease 0s;
-	transition: all 1s ease 0s;
 }
 .contact-form .form-group .submit:hover {
-	background-color: #f7f7f7;
-	box-shadow: inset 0px 0px 2px 0px rgba(255, 0, 150, 0.004);
-	-webkit-box-shadow: inset 0px 0px 2px 0px #4E4E4E;
-	color: #4E4E4E;
+	background-color: #051D51;
+	color: #FFF;
 }
+
 
 /* + Alert Msg */
 .alert-msg {
@@ -4776,48 +4762,69 @@ article[class*="type-"] .entry-content .entry-footer .social > li  > a:hover {
 
 /* - Widget : Newsletter */
 .widget_newsletter .newsletter-box {
-	background-color: #F1F5FD;
-	padding: 37px 30px;
+	background-color: #FFF;
+	padding: 10px;
 	text-align: center;
+	height: 230px;
 }
 .widget_newsletter .newsletter-box-2 {
-	background-color: #F1F5FD;
-	padding: 37px 30px;
+	background-color: #FFF;
+	padding: 10px;
 	text-align: center;
+	height: 230px;
 }
 .widget_newsletter .newsletter-box > i {
-	background-color: #fff;
+	background-color: #00113E;
 	border-radius: 50%;
 	display: inline-block;
 	font-size: 28px;
-	line-height: 2.3;
+	line-height: 2;
 	height: 57px;
 	width: 57px;
-	margin-bottom: 25px;
+	margin: 10px 0;
 }
 .widget_newsletter .newsletter-box-2 > i {
-	background-color: #4E4E4E;
+	background-color: #00113E;
 	border-radius: 50%;
 	display: inline-block;
 	font-size: 28px;
-	line-height: 2.3;
+	line-height: 2;
 	height: 57px;
 	width: 57px;
-	margin-bottom: 25px;
+	margin: 10px 0;
 }
-.widget_newsletter .newsletter-box > h4,
-.widget_newsletter .newsletter-box-2 > h4 {
-	font-size: 18px;
+.widget_newsletter .newsletter-box > h4 {
+	font-size: 20px;
 	font-weight: bold;
 	letter-spacing: -0.45px;
-	line-height: 1.66;
+	line-height: 1.3;
 	margin-bottom: 7px;
+	color: #4D4D4D;
 }
-.widget_newsletter .newsletter-box > p,
+.widget_newsletter .newsletter-box-2 > h4 {
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: -0.45px;
+	line-height: 1.3;
+	margin-bottom: 7px;
+	color: #4D4D4D;
+}
+.widget_newsletter .newsletter-box > p {
+    font-size: 14px;
+    line-height: 1.6;
+	margin-bottom: 25px;
+	color: #4D4D4D;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
 .widget_newsletter .newsletter-box-2 > p {
-	color: #4E4E4E;
-	letter-spacing: 0.225px;
-	line-height: 1.73;
+    font-size: 14px;
+    line-height: 1.6;
+	margin-bottom: 25px;
+	color: #4D4D4D;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
 }
 .widget_newsletter .newsletter-box > form,
 .widget_newsletter .newsletter-box-2 > form {
