@@ -100,7 +100,7 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 }
 
 p {
-	font-weight: normal;
+	font-weight: lighter;
 	font-size: 12px;
 	line-height: 1.3;
 } 
@@ -2055,7 +2055,7 @@ div.type-post .entry-content {
 	}
 	.sectionDivider {
 		height: 0;
-		margin: 50px auto;
+		margin: 20px auto;
 		overflow: hidden;
 		border-top: 2px solid #CACACA;
 		opacity: 0.2;
@@ -2072,7 +2072,7 @@ div.type-post .entry-content {
 @media (min-width: 998px) {
 	.type-post .entry-header .entry-title-sm {
 		color: #6B6B6B;
-		font-size: 16px;
+		font-size: 14px;
 		font-weight: normal;
 		line-height: 1.3;
 		margin:0;
@@ -2167,7 +2167,7 @@ div.type-post .entry-content {
 
 .type-post .entry-content p:last-of-type {
 	margin-bottom: 0;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 1.4;
 }
 
@@ -2833,7 +2833,7 @@ article[class*="type-"] .entry-content .entry-footer .social > li  > a:hover {
 }
 .post-nosidebar .type-post .entry-header .entry-title-sponsors,
 .post-nosidebar .type-post .entry-header .entry-title-sm {
-	font-size: 20px;
+	font-size: 18px;
 }
 .post-nosidebar .related-post .related-post-box > h3 {
 	font-size: 15px;
