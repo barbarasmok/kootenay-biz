@@ -1976,18 +1976,18 @@ div.type-post .entry-content {
 }
 .type-post .entry-header .entry-title-lg {
 	color: #4E4E4E;
-	font-size: 24px;
+	font-size: 18px;
 	font-weight: bold;
-	line-height: 1.1;
+	line-height: 1.2;
 	margin: 5px 0 10px;
 	padding-bottom: 2px;
 	position: relative;
 }
 .type-post .entry-header .entry-title-md {
 	color: #4E4E4E;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: bold;
-	line-height: 1.3;
+	line-height: 1.2;
 	margin: 0 0 16px;
 	padding-bottom: 2px;
 	position: relative;
@@ -1995,9 +1995,9 @@ div.type-post .entry-content {
 
 .type-post .entry-header .entry-title-md-summary {
 	color: #4E4E4E;
-	font-size: 12px;
+	font-size: 18px;
 	font-weight: bold;
-	line-height: 1.3;
+	line-height: 1.2;
 	margin: 0 0 16px;
 	padding-bottom: 2px;
 	position: relative;
@@ -2018,7 +2018,7 @@ div.type-post .entry-content {
 .entry-title-md-sponsors {
 	color: #3E71E2;
 	font-family: 'Merriweather', serif;
-	font-size: 14px;
+	font-size: 24px;
 	line-height: 1.2;
 	margin: 5px 0 10px;
 	padding-bottom: 2px;
@@ -2028,7 +2028,7 @@ div.type-post .entry-content {
 
 .entry-title-md-sponsors a {
 	color: #3E71E2;
-	font-size: 14px;
+	font-size: 24px;
 	font-weight: bold;
 	line-height: 1.4;
 	margin: 5px 0 10px;
@@ -2056,7 +2056,7 @@ div.type-post .entry-content {
 .card .card-body .entry-title-md-sponsors {
 	color: #3E71E2;
 	font-family: 'Merriweather', serif;
-	font-size: 14px;
+	font-size: 18px;
 	line-height: 1.2;
 	margin: 5px 0 10px;
 	padding-bottom: 2px;
@@ -2066,9 +2066,9 @@ div.type-post .entry-content {
 
 .card .card-body .entry-title-md-sponsors a {
 	color: #3E71E2;
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: bold;
-	line-height: 1.4;
+	line-height: 1.2;
 	margin: 5px 0 10px;
 	padding-bottom: 2px;
 	position: relative;
@@ -2118,17 +2118,16 @@ div.type-post .entry-content {
 }
 
 .card .card-body .card-text {
-	font-size: 12px;
+	font-size: 16px;
 	line-height: 1.3;
 	font-family: 'Merriweather', serif;
 	font-weight: lighter;
 	color:#6B6B6B;
 }
 
-
 .type-post .entry-header .entry-title-sm {
 	color: #6B6B6B;
-	font-size: 12px;
+	font-size: 16px;
 	font-weight: normal;
 	line-height: 1.3;
 	margin:0;
@@ -2159,11 +2158,33 @@ div.type-post .entry-content {
 		opacity: 0.2;
 	}
 	.type-post .entry-content p {
-		font-size: 15px;
+		font-size: 12px;
 	}
 	.type-post .entry-content p:last-of-type {
 		margin-bottom: 0;
-		font-size: 15px;
+		font-size: 12px;
+	}
+
+	.type-post .entry-header .entry-title-md {
+		font-size: 14px;
+	}
+
+	.type-post .entry-header .entry-title-sm {
+		font-size: 12px;
+	}
+
+	.type-post .entry-header .entry-title-lg {
+		font-size: 20px;
+	}
+
+	.card .card-body .entry-title-md-sponsors {
+		font-size:16px;
+		line-height: 1.2;
+	}
+
+	.card .card-body .entry-title-md-sponsors a {
+		font-size:16px;
+		line-height: 1.2;
 	}
 }
 
@@ -2177,6 +2198,16 @@ div.type-post .entry-content {
 		padding-bottom: 0;
 		position: relative;
 	}
+
+	.type-post .entry-content p:last-of-type {
+		margin-bottom: 0;
+		font-size: 14px;
+	}
+
+	.type-post .entry-header .entry-title-md {
+		font-size: 16px;
+	}
+	
 	.card .card-body .entry-title-md-sponsors {
 		color: #3E71E2;
 		font-family: 'Merriweather', serif;
@@ -2207,7 +2238,7 @@ div.type-post .entry-content {
 		font-family: 'Merriweather', serif;
 		font-size: 16px;
 		line-height: 1.4;
-		margin: 5px 0 10px;
+		margin: 5px 0 0;
 		padding-bottom: 2px;
 		position: relative;
 		font-weight: bold;
@@ -2253,19 +2284,19 @@ div.type-post .entry-content {
 	} 
 	
 	.card .card-body .card-text {
-		font-size: 14px;
-		line-height: 1.3;
+		font-size: 13px;
+		line-height: 1.4;
 		font-family: 'Merriweather', serif;
 		font-weight: lighter;
 		color:#6B6B6B;
 	}
-	
 
-	.card .card-body .card-text {
-		font-size: 14px;
+	.card .card-footer a {
+		font-size: 13px;
 		line-height: 1.4;
 	}
-
+	
+	
 	.type-post h3.entry-title-md {
 		font-size: 12px;
 		line-height: 0.5;
@@ -2344,12 +2375,6 @@ div.type-post .entry-content {
 	-moz-hyphens: auto;
 	hyphens: auto;
 	text-align: left;
-}
-
-.type-post .entry-content p:last-of-type {
-	margin-bottom: 0;
-	font-size: 14px;
-	line-height: 1.4;
 }
 
 
