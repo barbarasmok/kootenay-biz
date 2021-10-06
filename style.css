@@ -2016,7 +2016,7 @@ div.type-post .entry-content {
 .entry-title-md-sponsors {
 	color: #3E71E2;
 	font-family: 'Merriweather', serif;
-	font-size: 24px;
+	font-size: 18px;
 	line-height: 1.2;
 	margin: 5px 0 10px;
 	padding-bottom: 2px;
@@ -2026,9 +2026,9 @@ div.type-post .entry-content {
 
 .entry-title-md-sponsors a {
 	color: #3E71E2;
-	font-size: 24px;
+	font-size: 18px;
 	font-weight: bold;
-	line-height: 1.4;
+	line-height: 1.2;
 	margin: 5px 0 10px;
 	padding-bottom: 2px;
 	position: relative;
