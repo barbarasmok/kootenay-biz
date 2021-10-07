@@ -2404,6 +2404,15 @@ div.type-post .entry-content {
 	text-align: left;
 }
 
+.type-post .entry-content a {
+	color: #6B6B6B;
+	font-weight: bold;
+}
+
+.type-post .entry-content a:hover {
+	color: #3E71E2;
+}
+
 
 .type-post .entry-content > a,
 .type-post .entry-content > a::before {
@@ -2647,25 +2656,26 @@ article[class*="type-"] .entry-content .entry-footer .tags > a {
 	text-transform: uppercase;
 }
 article[class*="type-"] .entry-content .entry-footer .tags > a:hover {
-	color: #4E4E4E;
+	color: #3E71E2;
 	text-decoration: none;
 }
-article[class*="type-"] .entry-content .entry-footer .social {
+article[class*="type-"] .entry-content .entry-footer .share {
 	float: right;
 	margin-bottom: 12px;
 	padding-left: 0;
+	display: inline-block;
 	padding-right: 0;
 }
-article[class*="type-"] .entry-content .entry-footer .social > li {
+article[class*="type-"] .entry-content .entry-footer .share > li {
 	display: inline-block;
 	margin-left: 18px;
 }
-article[class*="type-"] .entry-content .entry-footer .social > li  > a {
+article[class*="type-"] .entry-content .entry-footer .share > li  > a {
 	color: #4E4E4E;
 	font-size: 13px;
 }
-article[class*="type-"] .entry-content .entry-footer .social > li  > a:hover {
-	color: #4E4E4E;
+article[class*="type-"] .entry-content .entry-footer .share > li  > a:hover {
+	color: #3E71E2;
 	text-decoration: none;
 }
 
@@ -2725,7 +2735,7 @@ article[class*="type-"] .entry-content .entry-footer .social > li  > a:hover {
 	border-radius: 100%;
 }
 .about-author-box .author > h4 {
-	color: #131313;
+	color: #4E4E4E;
 	display: inline-block;
 	font-family: 'Merriweather Sans', sans-serif;
 	font-size: 18px;
@@ -2741,6 +2751,7 @@ article[class*="type-"] .entry-content .entry-footer .social > li  > a:hover {
 	letter-spacing: 0.225px;
 	line-height: 1.6;
 }
+
 .about-author-box .author > ul {
 	display: inline-block;
 	margin-bottom: 0;
@@ -2761,7 +2772,33 @@ article[class*="type-"] .entry-content .entry-footer .social > li  > a:hover {
 	transition: all 1s ease 0s;
 }
 .about-author-box .author > ul > li > a:hover {
+	color: #3E71E2;
+	text-decoration: none;
+}
+
+.share > ul {
+    display: flex;
+    margin-bottom: 0;
+    margin-top: 2px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.share .author > ul > li {
+	display: inline-block;
+}
+
+.share > ul > li > a {
 	color: #4E4E4E;
+	font-size: 13px;
+	-webkit-transition: all 1s ease 0s;
+	-moz-transition: all 1s ease 0s;
+	-o-transition: all 1s ease 0s;
+	transition: all 1s ease 0s;
+	padding:10px;
+}
+.share > ul > li > a:hover {
+	color: #3E71E2;
 	text-decoration: none;
 }
 
