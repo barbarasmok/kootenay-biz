@@ -2404,6 +2404,17 @@ div.type-post .entry-content {
 	text-align: left;
 }
 
+.type-post .entry-content span {
+    color: #4E4E4E;
+    line-height: 1.4;
+    font-size: 14px;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+    text-align: left;
+	font-weight: 900;
+	text-transform: uppercase;
+}
 .type-post .entry-content a {
 	color: #6B6B6B;
 	font-weight: bold;
@@ -2582,6 +2593,12 @@ article[class*="type-"] .entry-content > h4 {
 	margin-bottom: 20px;
 	margin-top: 20px;
 	padding-top: 20px;
+}
+article[class*="type-"] .entry-content > h6 a {
+	color: #3E71E2;
+}
+article[class*="type-"] .entry-content > h6 a:hover {
+	color: #4E4E4E;
 }
 article[class*="type-"] .entry-content figure {
 	margin-top: 25px;
