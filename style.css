@@ -2751,6 +2751,10 @@ article[class*="type-"] .entry-content .entry-footer .share > li  > a:hover {
 .about-author-box > .author > i > img {
 	border-radius: 100%;
 }
+
+.about-author-box > .author > i > .businesslogo {
+	border-radius: none;
+}
 .about-author-box .author > h4 {
 	color: #4E4E4E;
 	display: inline-block;
@@ -2802,6 +2806,101 @@ article[class*="type-"] .entry-content .entry-footer .share > li  > a:hover {
 }
 
 .share .author > ul > li {
+	display: inline-block;
+}
+
+.share > ul > li > a {
+	color: #4E4E4E;
+	font-size: 13px;
+	-webkit-transition: all 1s ease 0s;
+	-moz-transition: all 1s ease 0s;
+	-o-transition: all 1s ease 0s;
+	transition: all 1s ease 0s;
+	padding:10px;
+}
+.share > ul > li > a:hover {
+	color: #3E71E2;
+	text-decoration: none;
+}
+
+
+/* - About Business */
+.about-business-box {
+	border-bottom: 1px solid #e1e1e1;
+	display: inline-block;
+	margin-top: 10px;
+	padding-bottom: 30px;
+	width: 100%;
+}
+.about-business-box > .business {
+	min-height: 170px;
+	padding-left: 260px;
+	padding-top: 0;
+	position: relative;
+}
+.about-business-box > .business > i {
+	left: 0;
+	position: absolute;
+	top: 0;
+}
+.about-business-box > .business > i > img {
+	border-radius: none;
+}
+
+.about-business-box > .business > i > .businesslogo {
+	border-radius: none;
+}
+.about-business-box .business > h4 {
+	color: #4E4E4E;
+	display: inline-block;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: -0.45px;
+	line-height: 1.66;
+	margin-bottom: 12px;
+	text-transform: capitalize;
+	width: 100%;
+}
+.about-business-box .business > p {
+	color: #4E4E4E;
+	letter-spacing: 0.225px;
+	line-height: 1.6;
+}
+
+.about-business-box .business > ul {
+	display: inline-block;
+	margin-bottom: 0;
+	margin-top: 2px;
+	padding-left: 0;
+	padding-right: 0;
+}
+.about-business-box .business > ul > li {
+	display: inline-block;
+	margin-right: 20px;
+}
+.about-business-box .business > ul > li > a {
+	color: #4E4E4E;
+	font-size: 13px;
+	-webkit-transition: all 1s ease 0s;
+	-moz-transition: all 1s ease 0s;
+	-o-transition: all 1s ease 0s;
+	transition: all 1s ease 0s;
+}
+.about-business-box .business > ul > li > a:hover {
+	color: #3E71E2;
+	text-decoration: none;
+}
+
+.share > ul {
+    display: flex;
+    margin-bottom: 0;
+    margin-top: 2px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.share .business > ul > li {
 	display: inline-block;
 }
 
