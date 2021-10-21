@@ -2013,6 +2013,21 @@ div.type-post .entry-content {
 	border:none;
 }
 
+.custom-border {
+	position: relative;
+}
+  
+.custom-border:after {
+	content: " ";
+	position: absolute;
+	border-left: 2px #9ea3b1 solid;
+	opacity: 0.2;
+	right: 0;
+	height: 92%;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
 .entry-title-md-sponsors {
 	color: #3E71E2;
 	font-family: 'Merriweather', serif;
