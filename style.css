@@ -2306,8 +2306,8 @@ div.type-post .entry-content {
 	.card .card-body .entry-title-md-sponsors {
 		color: #3E71E2;
 		font-family: 'Roboto', sans-serif;
-		font-size: 18px;
-		line-height: 1.4;
+		font-size: 16px;
+		line-height: 1.2;
 		margin: 5px 0 10px;
 		padding-bottom: 2px;
 		position: relative;
@@ -2315,9 +2315,9 @@ div.type-post .entry-content {
 	} 	
 	.card .card-body .entry-title-md-sponsors a {
 		color: #3E71E2;
-		font-size: 18px;
+		font-size: 16px;
 		font-weight: normal;
-		line-height: 1.4;
+		line-height: 1.2;
 		margin: 5px 0 10px;
 		padding-bottom: 2px;
 		position: relative;
